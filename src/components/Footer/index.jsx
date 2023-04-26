@@ -6,8 +6,8 @@ import logo from '../../assets/Nav/logo.svg'
 
 export default function Footer(){
     return (
-        <footer className="w-full h-60 bg-linear-escuro relative flex justify-center">
-            <div className="w-3/4 h-4/5 flex justify-center items-center bg-saturation-azul-escuro absolute bottom-0 rounded-t-[20px]">
+        <footer className="w-full h-[30rem] bg-linear-escuro relative flex justify-center items-center">
+            <div className="w-3/4 h-[50%] flex justify-center items-center bg-saturation-preto rounded-[20px]">
                 <div className='flex text-white gap-7'>
                     <a href=""><span className='text-3xl'><AiFillLinkedin /></span></a>
                     <a href=""><span className='text-3xl'><FaDiscord /></span></a>
