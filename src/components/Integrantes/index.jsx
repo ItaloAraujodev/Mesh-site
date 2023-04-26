@@ -1,5 +1,6 @@
 import { listIntegrantes } from '../../utils/integrantes'
 import { ImLinkedin } from 'react-icons/im'
+import './style.css'
 
 export default function Integrantes() {
     return (
@@ -9,7 +10,7 @@ export default function Integrantes() {
                 <div className='mt-12 grid grid-cols-3 gap-x-44 gap-y-32'>
                     {listIntegrantes.map((item, index) => (
                         <div key={index} className='w-[280px] h-72 rounded-[30px] py-1 px-1 bg-gradient-to-bl from-saturation-green to-saturation-azul-claro' >
-                            <div className='w-full h-full bg-linear-escuro rounded-[30px] py-3 px-10 flex flex-col items-center'>
+                            <div className='w-full h-full trans bg-linear-escuro rounded-[30px] py-3 px-10 flex flex-col items-center'>
                                 <div className='w-40 h-40'>
                                     <img src={item.imagem} alt={`Foto do ${item.name}`} className='object-cover rounded-[20px]'/>
                                 </div>

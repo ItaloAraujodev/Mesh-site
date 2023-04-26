@@ -1,0 +1,14 @@
+.trans {
+    transition-duration: 10s;
+}
+.trans:hover {
+    display: none;
+}
+
+.test {
+    visibility: hidden;
+}
+
+.test:hover {
+    visibility: visible;
+}

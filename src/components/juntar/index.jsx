@@ -11,9 +11,8 @@ export default function Juntar() {
                     </div>
 
                     <div className="w-full flex justify-center items-center gap-8">
-
                         {imgsJuntar.map((item, index) => (
-                            <div key={index} className="w-[18rem] h-[21rem] py-[2px] px-[2px] mt-12 rounded-[10px] bg-gradient-to-bl from-saturation-green to-saturation-azul-claro tra hover:bg-gradient-to-t hover:from-line-linear-azul hover:to-line-linear-rosa">
+                            <div key={index} className="w-[22%] h-[21rem] py-[2px] px-[2px] mt-12 rounded-[10px] bg-gradient-to-bl from-saturation-green to-saturation-azul-claro tra hover:bg-gradient-to-t hover:from-line-linear-azul hover:to-line-linear-rosa">
                                 <div className="w-full h-full bg-linear-escuro rounded-[10px] overflow-hidden bg-cover bg-no-repeat">
                                     <div className="w-full rounded-[10px] ">
                                         <img src={item.imagem} alt="" className="w-full object-container rounded-[10px] transition duration-500 ease-in-out hover:scale-110 hover:-rotate-2 " />

@@ -13,8 +13,8 @@ export default {
         "linear-mais-escuro": "#181B2D",
         "line-linear-azul": "#498CF1",
         "line-linear-rosa": "#EC2158",
-        "line-linear-red":  "#EC2158",
-        "line-linear-azul-1":  "#3B53A9",
+        "line-linear-red": "#EC2158",
+        "line-linear-azul-1": "#3B53A9",
         "saturation-azul-claro": "#4461C6",
         "saturation-azul-escuro": "#283563",
         "saturation-preto": "#02081A",
@@ -40,7 +40,7 @@ export default {
       fontFamily: {
         'russo-one': ['Russo One', 'sans-serif']
       },
-      
+
       height: {
         'altura-person': '90%',
       },
@@ -51,13 +51,13 @@ export default {
     },
     screens: {
       // min-width
+      'sm': { 'min': '640px', 'max': '767px' },
+      'md': { 'min': '768px', 'max': '1023px' },
+      'lg': { 'min': '1024px', 'max': '1279px' },
+      'xl': { 'min': '1280px', 'max': '1439px' },
+      '1440': { 'min': '1440px', 'max': '1535px' },
+      '2xl': { 'min': '1536px', 'max': '1919px' },
       "full": '1920px',
-      'sm': '640px',
-      'md': '768px',
-      'lg': '1024px',
-      'xl': '1280px',
-      '1440': "1440px",
-      '2xl': '1536px',
     }
   },
 

@@ -48,7 +48,7 @@ export const listIntegrantes = [
     {
         imagem: leon,
         nome: "Leon Bezerra",
-        funcao: "Coord. De Tecnologia",
+        funcao: "Especialista Jurídico",
         linkedin: "https://www.linkedin.com/in/leon-bezerra-30731697/"
     },
 
