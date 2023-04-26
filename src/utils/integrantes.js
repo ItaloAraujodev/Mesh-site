@@ -7,6 +7,7 @@ import leon from '../assets/Integrantes/leon.jpeg'
 import murilo from '../assets/Integrantes/xr.jpeg'
 import samuel from '../assets/Integrantes/samuel.jpeg'
 import italo from '../assets/Integrantes/italo.jpg'
+import jaba from '../assets/Integrantes/jaba.jpeg'
 
 
 export const listIntegrantes = [
@@ -64,6 +65,13 @@ export const listIntegrantes = [
         nome: "Ítalo Araújo",
         funcao: "Developer Full Stack",
         linkedin: "https://www.linkedin.com/in/italoaraujodev/"
+    },
+
+    {
+        imagem: jaba,
+        nome: "Judá Matheo",
+        funcao: "Developer Backend",
+        linkedin: "https://www.linkedin.com/in/jud%C3%A1-matheo-vargas-4ba88a212/"
     },
 
     {

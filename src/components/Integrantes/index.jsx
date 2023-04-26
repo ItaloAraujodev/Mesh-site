@@ -1,6 +1,5 @@
 import { listIntegrantes } from '../../utils/integrantes'
 import { ImLinkedin } from 'react-icons/im'
-import './style.css'
 
 export default function Integrantes() {
     return (
