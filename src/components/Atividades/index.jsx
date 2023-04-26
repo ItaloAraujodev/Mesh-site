@@ -5,7 +5,7 @@ import './custom.css';
 
 export default function Atividades() {
     return (
-        <div className="w-full h-[50rem] pb-1 bg-gradient-to-r from-line-linear-azul to-line-linear-rosa ">
+        <div id='atividade' className="w-full h-[50rem] pb-1 bg-gradient-to-r from-line-linear-azul to-line-linear-rosa ">
             <div className="w-full h-full bg-linear-escuro text-white flex items-center justify-center">
                 <div className='w-full h-2/3 flex flex-col'>
                     <h2 className='text-center font-semibold text-[42px] mb-12 teste'>Nossas Atividades</h2>

@@ -1,6 +1,7 @@
 import icon from '../../assets/Nav/logo.svg';
 import brasil from '../../assets/Nav/brasil.svg';
 import american from '../../assets/Nav/american.svg';
+import ScrollLink from '../transition';
 
 function navBar() {
     return (
@@ -11,12 +12,12 @@ function navBar() {
                 </div>
                 <div>
                     <ul className='text-white text-base flex gap-8 xl:gap-14 1440:gap-16 2xl:gap-[5rem] full:gap-[6rem] '>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Serviços</a></li>
-                        <li><a href="">Quem somos</a></li>
+                        <li><a href="home">Home</a></li>
+                        <li><ScrollLink href="#atividade">Serviços</ScrollLink></li>
+                        <li><ScrollLink href="#sobre">Quem somos</ScrollLink></li>
                         <li><a href="">Contribuições</a></li>
-                        <li><a href="">Fale Conosco</a></li>
-                        <li><a href="">Equipe</a></li>
+                        <li><ScrollLink href="#fale">Fale Conosco</ScrollLink></li>
+                        <li><ScrollLink href="#inte">Equipe</ScrollLink></li>
                     </ul>
                 </div>
                 <div className='flex gap-4 full:gap-6'>

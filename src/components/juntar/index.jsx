@@ -2,7 +2,7 @@ import imgsJuntar from "../../utils/juntar"
 
 export default function Juntar() {
     return (
-        <div className="w-full h-[50rem] pb-1 bg-gradient-to-r from-line-linear-azul to-line-linear-rosa ">
+        <div id="juntar" className="w-full h-[50rem] pb-1 bg-gradient-to-r from-line-linear-azul to-line-linear-rosa ">
             <div className="w-full h-full bg-gradient-to-r from-bg-azul-claro via-saturation-azul-escuro to-bg-azul-claro text-white flex justify-center">
                 <div className="flex flex-col justify-center items-center">
                     <div className="flex flex-col items-center">

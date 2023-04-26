@@ -1,9 +1,10 @@
 import sobre from '../../assets/Sobre/sobrenos.svg';
-import Button from '../Button';
+/* import Button from '../Button'; */
+import ScrollLink from '../transition';
 
 export default function Sobre() {
     return (
-            <div className="w-full h-[45rem] py-1 bg-gradient-to-r from-line-linear-azul to-line-linear-rosa relative ">
+            <div id='sobre' className="w-full h-[45rem] py-1 bg-gradient-to-r from-line-linear-azul to-line-linear-rosa relative ">
                 <div className="w-full h-full bg-gradient-to-r from-saturation-azul-escuro to-saturation-preto text-white flex items-center justify-center">
                     <div className="w-largura-person h-[40rem]">
                         <h2 className="my-8 text-5xl text-center font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-saturation-green to-saturation-green ">Sobre nós</h2>
@@ -27,7 +28,7 @@ export default function Sobre() {
                                     <span className="text-saturation-green">▸</span>
                                     <p className="ml-5">Queremos democratizar o acesso à informação. tornar possível que qualquer pessoa, em qualquer lugar, possa aprender.</p>
                                 </div>
-                                <Button text="Conheça mais sobre nós" />
+                                <ScrollLink href="#fale">Texto</ScrollLink>
                             </div>
                         </div>
                     </div>

@@ -7,11 +7,12 @@ import Juntar from "./components/juntar";
 import Integrantes from "./components/Integrantes";
 import FaleConosco from "./components/FaleConosco";
 import Footer from "./components/Footer";
+import './geral.css'
 
 function App() {
 
   return (
-    <main>
+    <main className="geral">
       <NavBar />
       <Home/>
       <Sobre/>

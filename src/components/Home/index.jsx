@@ -2,7 +2,7 @@ import espaco from '../../assets/Home/espaco.svg'
 
 export default function Home() {
     return (
-        <section className="w-full relative h-screen bg-linear-escuro z-0">
+        <section id='home' className="w-full relative h-screen bg-saturation-preto z-0" >
             <div className='flex items-center justify-center mb-4 z-10'>
                 <div className="w-full h-[90%] absolute top-0 md:top-[-8rem] lg:top-2 xl:top-[-1rem] flex justify-center">
                     <img src={espaco} alt="" className='w-full' />
