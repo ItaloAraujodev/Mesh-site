@@ -20,7 +20,7 @@ export const listIntegrantes = [
 
     {
         imagem: murilo,
-        nome: "Murilo",
+        nome: "Murillo",
         funcao: "Tech Lead",
         linkedin: "https://www.linkedin.com/in/xrow/"
     },
