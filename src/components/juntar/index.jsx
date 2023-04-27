@@ -1,4 +1,5 @@
 import imgsJuntar from "../../utils/juntar"
+import { motion } from "framer-motion"
 
 export default function Juntar() {
     return (
@@ -9,20 +10,28 @@ export default function Juntar() {
                         <h2 className='leading-2 text-[42px] mb-12 text-transparent bg-clip-text bg-gradient-to-r from-saturation-green to-saturation-green'>Porque você deve ser juntar a nós</h2>
                         <p className="mt-[-2.5rem] text-xl">Seja Membro da MESH e faça parte da construção de um modelo de mercado descentralizado</p>
                     </div>
-
+                    {/* overflow-hidden bg-cover bg-no-repeat  */}
                     <div className="w-full flex justify-center items-center gap-8 full:gap-12">
                         {imgsJuntar.map((item, index) => (
-                            <div key={index} className="w-[16rem] h-[19rem] lg:w-[13.5rem] lg:h-[17.5rem] full:w-[18rem] full:h-[22rem] py-[2px] px-[2px] mt-12 rounded-[10px] bg-gradient-to-bl from-saturation-green to-saturation-azul-claro tra hover:bg-gradient-to-t transition-all duration-600 ease-out hover:from-line-linear-azul hover:to-line-linear-rosa">
-                                <div className="w-full h-full bg-linear-escuro rounded-[10px] overflow-hidden bg-cover bg-no-repeat ">
-                                    <div className="w-full rounded-[10px] ">
-                                        <img src={item.imagem} alt="" className="w-full object-container rounded-[10px] transition duration-500 ease-in-out hover:scale-110 hover:-rotate-2 " />
+                            <motion.div 
+                                key={index} 
+                                whileHover={ { backgroundColor: ["#44F26B", "#EC2158"] }  }
+                                transition={{ duration: 0.5, ease: "easeOut" }}
+                                className="w-[16rem] h-[19rem] lg:w-[13.5rem] lg:h-[17.5rem] full:w-[18rem] full:h-[22rem] py-[2px] px-[2px] mt-12 rounded-[10px] bg-gradient-to-bl from-saturation-green to-saturation-azul-claro">
+
+                                <div className="w-full h-full bg-linear-escuro rounded-[10px]">
+                                    <div className="w-full rounded-[10px] overflow-hidden ">
+                                        <motion.img 
+                                        whileHover={ { scale: 1.3, overflow: "hidden", rotate: "-5deg" } }
+                                        transition={ { duration: 0.5 } }
+                                        src={item.imagem} alt="" className="w-full object-container rounded-[10px] " />
                                     </div>
 
                                     <div className="m-6">
                                         <h3 className="text-lg lg:text-base text-center">{item.title}</h3>
                                     </div>
                                 </div>
-                            </div>
+                            </motion.div>
                         ))}
                     </div>
                 </div>
