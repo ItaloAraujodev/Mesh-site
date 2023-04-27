@@ -15,6 +15,7 @@ export const listIntegrantes = [
         imagem: bruno,
         nome: "Bruno Santos",
         funcao: "COO",
+        description: "Teste TesteTesteTesteTesteTesteTesteTesteTeste",
         linkedin: "https://www.linkedin.com/in/bruno-santos-65b3b297/"
     },
 

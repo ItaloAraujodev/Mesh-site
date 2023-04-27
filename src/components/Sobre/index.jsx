@@ -8,11 +8,11 @@ export default function Sobre() {
                     <div className="w-largura-person h-full flex flex-col justify-center">
                         <h2 className="my-8 text-5xl text-center font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-saturation-green to-saturation-green ">Sobre nós</h2>
                         <div className="flex items-center">
-                            <div className="w-[50%]">
+                            <div className="w-[60%] lg:w-[60%]">
                                 <img src={sobre} alt="" className="h-[40rem]" />
                             </div>
 
-                            <div className="w-[50%] text-justify flex flex-col gap-12 text-base full:text-xl">
+                            <div className="w-[50%] text-justify flex flex-col gap-12 text-base lg:gap-8 xl:gap-8 1440:text-xl 2xl:text-xl full:text-xl">
                                 <div className="flex items-center">
                                     <span className="text-saturation-green">▸</span>
                                     <p className="ml-5">Com o nosso Labs, você pode elevar seu trabalho a um novo patamar e ao mesmo tempo, ajudar a construir um mundo melhor. Não estamos aqui para dominar, mas sim para revolucionar a maneira como as pessoas trabalham e se comunicam.</p>

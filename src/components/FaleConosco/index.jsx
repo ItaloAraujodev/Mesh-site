@@ -14,10 +14,10 @@ export default function FaleConosco() {
                         <img src={aviao} alt="" className='lg:w-[75%]' />
                     </div>
 
-                    <div className='flex flex-col w-[300px] h-[273px]'>
+                    <div className='flex flex-col w-[19rem] h-[20rem]'>
                         <div>
-                            <h2 className='text-[20px] mb-4 font-semibold' >Vamos tirar sua idéia do papel?</h2>
-                            <p className='text-lg font-normal'>
+                            <h2 className='text-[1.2rem] full:text-[1.6rem] 2xl:text-[1.6rem] mb-4 font-semibold' >Vamos tirar sua idéia do papel?</h2>
+                            <p className='text-lg full:text-xl font-light'>
                                 Não deixe para depois, agende uma conversa com um de nossos especialistas! Nós cuidamos de tudo!
                             </p>
                         </div>
