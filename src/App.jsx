@@ -8,17 +8,27 @@ import Integrantes from "./components/Integrantes";
 import FaleConosco from "./components/FaleConosco";
 import Footer from "./components/Footer";
 import './geral.css'
+import Aos from "aos";
+import { useEffect } from "react";
 
 function App() {
+
+  useEffect(() => {
+    Aos.init({
+      duration: 1200,
+    })
+
+  }, [])
+
 
   return (
     <main className="geral">
       <NavBar />
-      <Home/>
-      <Sobre/>
-      <Atividades/>
-      <Juntar/>
-      <Integrantes/>
+      <Home />
+      <Sobre />
+      <Atividades />
+      <Juntar />
+      <Integrantes />
       <FaleConosco />
       <Footer />
     </main>
