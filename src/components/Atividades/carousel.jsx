@@ -91,63 +91,63 @@ const Carousel = () => {
   return (
     <div className="carousel">
       <Slider {...settings} className="">
-        <div className="box">
+        <div className="box bg-gradient-to-bl from-saturation-green to-saturation-azul-claro">
           <div className="box-context flex flex-col">
             <img src={produtos} alt="" />
             <h3>Produtos para Web3</h3>
           </div>
         </div>
 
-        <div className="box">
+        <div className="box bg-gradient-to-bl from-saturation-red to-saturation-azul-claro">
           <div className="box-context">
             <img src={money} alt="" />
             <h3>SaaS para Fintechs</h3>
           </div>
         </div>
 
-        <div className="box">
+        <div className="box bg-gradient-to-b from-saturation-green to-saturation-azul-claro">
           <div className="box-context">
             <img src={banco} alt="" />
             <h3>De-Fi e economias descentralizadas</h3>
           </div>
         </div>
 
-        <div className="box">
+        <div className="box bg-gradient-to-br from-saturation-green to-saturation-azul-claro">
           <div className="box-context">
             <img src={digital} alt="" />
             <h3>Branding</h3>
           </div>
         </div>
 
-        <div className="box">
+        <div className="box bg-gradient-to-bl from-saturation-red to-saturation-azul-claro">
           <div className="box-context">
             <img src={blockchain} alt="" />
             <h3>Blockchain as a Service</h3>
           </div>
         </div>
 
-        <div className="box">
+        <div className="box bg-gradient-to-b from-saturation-green to-saturation-azul-claro">
           <div className="box-context">
             <img src={nfts} alt="" />
             <h3>NFTs</h3>
           </div>
         </div>
 
-        <div className="box">
+        <div className="box bg-gradient-to-br from-saturation-green to-saturation-azul-claro">
           <div className="box-context">
             <img src={token} alt="" />
             <h3>Tokens</h3>
           </div>
         </div>
 
-        <div className="box">
+        <div className="box bg-gradient-to-bl from-saturation-red to-saturation-azul-claro">
           <div className="box-context">
             <img src={ageis} alt="" />
             <h3>Metodos ágeis</h3>
           </div>
         </div>
 
-        <div className="box">
+        <div className="box bg-gradient-to-b from-saturation-green to-saturation-azul-claro">
           <div className="box-context">
             <img src={product} alt="" />
             <h3>Produtos</h3>

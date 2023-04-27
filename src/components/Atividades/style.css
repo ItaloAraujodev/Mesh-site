@@ -6,11 +6,10 @@
 }
 /* slick-slider ml-8 border flex items-center justify-center slick-initialized */
 .box {
-    background-image: linear-gradient(to bottom, #44F26B , #4461C6);
     width: 20rem !important;
     height: 18rem;
     border-radius: 57px;
-    padding: 0.25rem 0.25rem;
+    padding: 2px;
 }
 
 .box-container {
