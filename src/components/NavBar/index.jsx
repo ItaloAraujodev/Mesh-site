@@ -11,11 +11,10 @@ function navBar() {
                     <img src={icon} alt="Logo da Mesh" />
                 </div>
                 <div>
-                    <ul className='text-white text-base flex gap-8 xl:gap-14 1440:gap-16 2xl:gap-[5rem] full:gap-[6rem] '>
+                    <ul className='text-white text-base flex gap-8 lg:gap-16 xl:gap-14 1440:gap-16 2xl:gap-[5rem] full:gap-[6rem] '>
                         <li><a href="home">Home</a></li>
                         <li><ScrollLink href="#atividade">Serviços</ScrollLink></li>
                         <li><ScrollLink href="#sobre">Quem somos</ScrollLink></li>
-                        <li><a href="">Contribuições</a></li>
                         <li><ScrollLink href="#fale">Fale Conosco</ScrollLink></li>
                         <li><ScrollLink href="#inte">Equipe</ScrollLink></li>
                     </ul>

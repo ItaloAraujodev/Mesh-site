@@ -13,7 +13,7 @@ export default function Atividades() {
         <div id='atividade' className="w-full h-[50rem] pb-1 bg-gradient-to-r from-line-linear-azul to-line-linear-rosa ">
             <div className="w-full h-full bg-linear-escuro text-white flex items-center justify-center">
                 <div className='w-full h-2/3 flex flex-col'>
-                    <h2 className='text-center font-semibold text-[42px] text-transparent bg-clip-text bg-gradient-to-t from-line-linear-red to-saturation-red'>Nossas Atividades</h2>
+                    <h2 className='text-center font-semibold text-[42px] text-transparent bg-clip-text bg-gradient-to-b from-line-linear-red via-line-linear-red to-saturation-azul-escuro'>Nossas Atividades</h2>
                     <div className="w-full flex justify-center items-center gap-16 lg:gap-10 full:gap-[6rem]">
                         <Carousel />
                     </div>

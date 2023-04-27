@@ -7,7 +7,7 @@ export default function Juntar() {
             <div className="w-full h-full bg-gradient-to-r from-bg-azul-claro via-saturation-azul-escuro to-bg-azul-claro text-white flex justify-center">
                 <div className="flex flex-col justify-center items-center">
                     <div className="flex flex-col items-center">
-                        <h2 className='leading-2 text-[42px] mb-12 text-transparent bg-clip-text bg-gradient-to-r from-saturation-green to-saturation-green'>Porque você deve ser juntar a nós</h2>
+                        <h2 className='leading-2 text-[42px] mb-12 text-transparent bg-clip-text bg-gradient-to-b from-green-400 via-green-400 to-saturation-azul-escuro'>Porque você deve ser juntar a nós</h2>
                         <p className="mt-[-2.5rem] text-xl">Seja Membro da MESH e faça parte da construção de um modelo de mercado descentralizado</p>
                     </div>
                     {/* overflow-hidden bg-cover bg-no-repeat  */}

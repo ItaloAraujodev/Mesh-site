@@ -6,7 +6,7 @@ export default function Sobre() {
             <div id='sobre' className="w-full h-[55rem] py-1 bg-gradient-to-r from-line-linear-azul to-line-linear-rosa relative ">
                 <div className="w-full h-full bg-gradient-to-r from-saturation-azul-escuro to-saturation-preto text-white flex justify-center">
                     <div className="w-largura-person h-full flex flex-col justify-center">
-                        <h2 className="my-8 text-5xl text-center font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-saturation-green to-saturation-green ">Sobre nós</h2>
+                        <h2 className="my-8 text-[42px] text-center font-semibold text-transparent bg-clip-text bg-gradient-to-b from-green-400 via-green-400 to-saturation-azul-escuro">Sobre nós</h2>
                         <div className="flex items-center">
                             <div className="w-[60%] lg:w-[60%]">
                                 <img src={sobre} alt="" className="h-[40rem]" />
