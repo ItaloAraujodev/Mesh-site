@@ -14,14 +14,14 @@ export default function FaleConosco() {
                         <img src={aviao} alt="Imagem de um avião de papel" className='lg:w-[75%]' />
                     </div>
 
-                    <div data-aos="fade-left" className='flex flex-col w-[19rem] h-[20rem]'>
+                    <div data-aos="fade-left" className='flex flex-col w-[19rem] h-[20rem] md:ml-10'>
                         <div>
                             <h2 className='text-[1.2rem] full:text-[1.6rem] 2xl:text-[1.6rem] mb-4 font-semibold' >Vamos tirar sua idéia do papel?</h2>
                             <p className='text-lg full:text-xl font-light'>
                                 Não deixe para depois, agende uma conversa com um de nossos especialistas! Nós cuidamos de tudo!
                             </p>
                         </div>
-                        <div className='mt-[4rem]'>
+                        <div className='mt-[4rem] md:mt-[2rem]'>
                             <Button text='Marque uma reunião' url='https://calendly.com/brncrysis/call' />
                         </div>
                     </div>
