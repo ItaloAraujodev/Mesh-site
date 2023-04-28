@@ -43,7 +43,7 @@ export const listIntegrantes = [
     {
         imagem: samuel,
         nome: "Samuel V. Ferreira",
-        funcao: "Desing",
+        funcao: "Design",
         linkedin: "https://www.linkedin.com/in/samuel-v-ferreira-251573244/"
     },
 
