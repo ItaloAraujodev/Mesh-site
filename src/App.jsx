@@ -20,7 +20,6 @@ function App() {
 
   }, [])
 
-
   return (
     <main className="geral">
       <NavBar />

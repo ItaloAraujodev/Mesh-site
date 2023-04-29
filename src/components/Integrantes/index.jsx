@@ -5,7 +5,7 @@ export default function Integrantes() {
     return (
         <div id='inte' className="w-full h-full  bg-gradient-to-r from-line-linear-azul to-line-linear-red ">
             <div className="w-full h-full bg-azul-claro text-white flex flex-col items-center py-14">
-                <h2 data-aos="zoom-in" className='text-[42px] font-semibold mb-4 text-transparent bg-clip-text bg-gradient-to-b from-line-linear-red via-line-linear-red to-saturation-azul-escuro' >Integrantes</h2>
+                <h2 data-aos="fade-down" className='text-[42px] font-semibold mb-4 text-transparent bg-clip-text bg-gradient-to-b from-line-linear-red via-line-linear-red to-saturation-azul-escuro' >Integrantes</h2>
                 <div className='mt-12 grid grid-cols-3 gap-32 md:gap-10 lg:gap-16 full:gap-48'>
                     {listIntegrantes.map((item, index) => (
                         <div data-aos="zoom-in" key={index} className='w-[280px] h-72 md:w-[220px] md:h-[15rem] lg:w-[230px] lg:h-64 rounded-[30px] py-1 px-1 bg-gradient-to-bl from-saturation-green to-saturation-azul-claro' >
