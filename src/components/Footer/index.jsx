@@ -10,7 +10,7 @@ export default function Footer(){
                 <div className='flex text-white gap-10'>
                     <a href="https://www.linkedin.com/company/mesh-labs-web3/?viewAsMember=true"><span className='text-3xl'><AiFillLinkedin /></span></a>
                     <a href="https://discord.gg/GBzBcUSq"><span className='text-3xl'><FaDiscord /></span></a>
-                    <a href=""><span className='text-3xl'><AiOutlineTwitter /></span></a>
+                    <a href="https://twitter.com/MeshLabss"><span className='text-3xl'><AiOutlineTwitter /></span></a>
                 </div>
                 
                 <span className='border h-[40%] border-gray-500 mx-24 lg:mx-12'></span>

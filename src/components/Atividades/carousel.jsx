@@ -1,105 +1,28 @@
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
 import produtos from '../../assets/Atividades/produtosWeb.svg';
 import banco from '../../assets/Atividades/banco.svg';
 import money from '../../assets/Atividades/money.svg';
-import digital from '../../assets/Atividades/digital.svg'
-import blockchain from '../../assets/Atividades/blockchain.svg'
-import nfts from '../../assets/Atividades/nfts.svg'
-import token from '../../assets/Atividades/tokens.svg'
-import ageis from '../../assets/Atividades/ageis.svg'
-import product from '../../assets/Atividades/product.svg'
+import digital from '../../assets/Atividades/digital.svg';
+import blockchain from '../../assets/Atividades/blockchain.svg';
+import nfts from '../../assets/Atividades/nfts.svg';
+import token from '../../assets/Atividades/tokens.svg';
+import ageis from '../../assets/Atividades/ageis.svg';
+import product from '../../assets/Atividades/product.svg';
+/* import { Navigation, Pagination, A11y, Autoplay } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css'
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import 'swiper/css/autoplay' */
+import './style.css'
 
-
-const Carousel = () => {
-
-  var settings = {
-    dots: true,
-    infinite: false,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
-    initialSlide: 0,
-    arrows: false,
-    responsive: [
-
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      },
-
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2
-        }
-      },
-
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        }
-      },
-
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          infinite: true,
-          dots: true,
-          arrows: false
-        }
-      },
-
-      {
-        breakpoint: 1280,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true,
-          arrows: false
-        }
-      },
-
-
-      {
-        breakpoint: 1440,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          dots: true,
-          arrows: false,
-        }
-      },
-
-      {
-        breakpoint: 1536,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          dots: true,
-          arrows: false,
-        }
-      },
-
-
-    ]
-  }
+const caroul = () => {
 
   return (
-    <div className="carousel">
-      <Slider {...settings} className="">
-        <div className="box bg-gradient-to-bl from-saturation-green to-saturation-azul-claro">
+    <div className='slider'>
+      <div className='slider-track'>
+        <div className="box bg-gradient-to-bl from-saturation-green to-saturation-azul-claro ">
           <div className="box-context flex flex-col">
             <img src={produtos} alt="Produtos para Web3" />
             <h3>Produtos para Web3</h3>
@@ -161,9 +84,9 @@ const Carousel = () => {
             <h3>Produtos</h3>
           </div>
         </div>
-      </Slider>
+      </div>
     </div>
   )
 }
 
-export default Carousel
+export default caroul
