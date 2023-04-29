@@ -5,7 +5,7 @@ import logo from '../../assets/Nav/logo.svg'
 
 export default function Footer(){
     return (
-        <footer className="w-full h-[30rem] bg-linear-escuro relative flex justify-center items-center">
+        <footer className="w-full h-[30rem] bg-azul-claro relative flex justify-center items-center">
             <div data-aos="zoom-in" className="w-3/4 h-[50%] flex justify-center items-center bg-saturation-preto rounded-[20px]">
                 <div className='flex text-white gap-10'>
                     <a href="https://www.linkedin.com/company/mesh-labs-web3/?viewAsMember=true"><span className='text-3xl'><AiFillLinkedin /></span></a>

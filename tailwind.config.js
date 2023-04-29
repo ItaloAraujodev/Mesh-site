@@ -8,11 +8,8 @@ export default {
     extend: {
       colors: {
         "navBar": "#070707",
-        "linear-escuro": "#181B2D",
         "background-tes": "#0F111B",
-        "linear-mais-escuro": "#181B2D",
         "line-linear-azul": "#498CF1",
-        "line-linear-rosa": "#EC2158",
         "line-linear-red": "#EC2158",
         "line-linear-azul-1": "#3B53A9",
         "saturation-azul-claro": "#4461C6",
@@ -24,8 +21,8 @@ export default {
         "lights-azul-300": "#90AAF7",
         "lights-red-claro": "#F04F5F",
         "lights-green": "#A5F7B7",
-        "bg-azul-claro": "#181B2D",
-        "bg-azul-escuro": "#11141F",
+        "azul-claro": "#181B2D",
+        "azul-escuro": "#11141F",
       },
       fontSize: {
         "display-large": '4.5rem',

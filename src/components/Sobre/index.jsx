@@ -8,7 +8,7 @@ export default function Sobre() {
 
 
     return (
-            <div id='sobre' className="w-full h-[55rem] py-1 bg-gradient-to-r from-line-linear-azul to-line-linear-rosa relative ">
+            <div id='sobre' className="w-full h-[55rem] py-1 bg-gradient-to-r from-line-linear-azul to-line-linear-red relative ">
                 <div className="w-full h-full bg-gradient-to-r from-saturation-azul-escuro to-saturation-preto text-white flex justify-center">
                     <div className="w-largura-person h-full flex flex-col justify-center overflow-x-hidden">
                         <h2 data-aos="fade-down" className="my-8 text-[42px] text-center font-semibold text-transparent bg-clip-text bg-gradient-to-b from-green-400 via-green-400 to-saturation-azul-escuro">Sobre nós</h2>
