@@ -1,16 +1,9 @@
-.carousel {
-    padding: 5rem;
-    color: #fff;
-    width: 90%;
-    height: 90%;
-}
-/* slick-slider ml-8 border flex items-center justify-center slick-initialized */
 .box {
-    width: 20rem !important;
-    height: 18rem;
+    width: 24rem !important;
+    height: 20rem !important;
     border-radius: 57px;
     padding: 2px;
-    margin-left: 1.8rem;
+    margin-left: 2rem;
 }
 
 .box-container {
@@ -26,7 +19,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.2rem;
+    gap: 1.5rem;
 }
 
 .box-context img {
@@ -40,20 +33,50 @@
 }
 
 .slider {
+    background: #181B2D;
     height: 400px;
     margin: auto;
     position: relative;
     width: 90%;
-    display: grid;
-    place-items: center;
     overflow: hidden;
+    
 }
 
-.slider-track {
+.slider::before, .slider::after {
+    background: linear-gradient(to right, #181B2D 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100px;
+    z-index: 2;
+}
+
+.slider::after {
+    right: 0;
+    top: 0;
+    -webkit-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slider .slider-track {
     display: flex;
-    width: calc(250px * 18);
+    width: calc(24rem * 18);
     animation: scroll 40s linear infinite;
-    animation-delay: 3s;
+
+}
+
+.slider .slide-track:hover {
+    animation-play-state: paused;
+}
+
+.slider .box {
+    width: 24rem;
+    height: 20rem;
 }
 
 @keyframes scroll {
@@ -62,7 +85,7 @@
     }
 
     100% {
-        transform: translateX(calc(-250px * 9));
+        transform: translateX(calc(-24rem * 9));
     }
 }
 

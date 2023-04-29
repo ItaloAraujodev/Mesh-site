@@ -4,7 +4,7 @@ import Button from '../Button'
 
 export default function FaleConosco() {
     return (
-        <section id='fale' className="w-full h-[50rem] relative bg-linear-escuro text-white flex flex-col items-center py-24 ">
+        <section id='fale' className="w-full h-[50rem] relative bg-linear-escuro text-white flex flex-col items-center py-24">
             <h2 data-aos="zoom-in" className='text-[42px] mb-14 text-transparent bg-clip-text bg-gradient-to-b from-line-linear-red via-line-linear-red to-saturation-azul-escuro' >Fale conosco</h2>
             <img src={ponto} alt="" className='absolute left-[3rem] top-36' />
             <img src={ponto} alt="" className='absolute right-[3rem] bottom-6 rotate-180' />
