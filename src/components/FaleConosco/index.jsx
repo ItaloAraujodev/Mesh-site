@@ -4,7 +4,7 @@ import Button from '../Button'
 
 export default function FaleConosco() {
     return (
-        <section id='fale' className="w-full h-[50rem] relative bg-azul-claro text-white flex flex-col items-center py-24">
+        <section id='fale' className="w-full h-[55rem] relative bg-azul-claro text-white flex flex-col items-center py-24">
             <h2 data-aos="zoom-in" className='text-[42px] mb-14 text-transparent bg-clip-text bg-gradient-to-b from-line-linear-red via-line-linear-red to-saturation-azul-escuro' >Fale conosco</h2>
             <img src={ponto} alt="" className='absolute left-[3rem] top-36' />
             <img src={ponto} alt="" className='absolute right-[3rem] bottom-6 rotate-180' />
@@ -14,15 +14,16 @@ export default function FaleConosco() {
                         <img src={aviao} alt="Imagem de um avião de papel" className='lg:w-[75%]' />
                     </div>
 
-                    <div data-aos="fade-left" className='flex flex-col w-[19rem] h-[20rem] md:ml-10'>
+                    <div data-aos="fade-left" className='flex flex-col w-[28rem] h-[20rem] md:ml-10'>
                         <div>
                             <h2 className='text-[1.2rem] full:text-[1.6rem] 2xl:text-[1.6rem] mb-4 font-semibold' >Vamos tirar sua idéia do papel?</h2>
                             <p className='text-lg full:text-xl font-light'>
                                 Não deixe para depois, agende uma conversa com um de nossos especialistas! Nós cuidamos de tudo!
                             </p>
                         </div>
-                        <div className='mt-[4rem] md:mt-[2rem]'>
+                        <div className='mt-[4rem] md:mt-[2rem] flex gap-4'>
                             <Button text='Marque uma reunião' url='https://calendly.com/brncrysis/call' />
+                            <Button text='Envie sua ideia' url='https://1y7idwqhetx.typeform.com/to/Y2RL4h8P' />
                         </div>
                     </div>
                 </div>
