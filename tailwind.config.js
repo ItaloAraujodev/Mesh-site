@@ -47,6 +47,12 @@ export default {
       }
     },
     screens: {
+      //Mobile
+      '360': { 'min': '360px', 'max': '640px' }, 
+      '414': { 'min': '414px', 'max': '896px' }, 
+      '375': { 'min': '375px', 'max': '667px' }, 
+      '360-2': { 'min': '360px', 'max': '780px' }, 
+      //Desktop
       'sm': { 'min': '640px', 'max': '767px' },
       'md': { 'min': '768px', 'max': '1023px' },
       'lg': { 'min': '1024px', 'max': '1279px' },

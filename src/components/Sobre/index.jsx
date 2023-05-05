@@ -8,16 +8,16 @@ export default function Sobre() {
 
 
     return (
-            <div id='sobre' className="w-full h-[55rem] py-1 bg-gradient-to-r from-line-linear-azul to-line-linear-red relative ">
+            <div id='sobre' className="w-full h-[55rem] 360:h-auto md:h-[auto] py-1 bg-gradient-to-r from-line-linear-azul to-line-linear-red relative ">
                 <div className="w-full h-full bg-gradient-to-r from-saturation-azul-escuro to-saturation-preto text-white flex justify-center">
                     <div className="w-largura-person h-full flex flex-col justify-center overflow-x-hidden">
-                        <h2 data-aos="fade-down" className="my-8 text-[42px] text-center font-semibold text-transparent bg-clip-text bg-gradient-to-b from-green-400 via-green-400 to-saturation-azul-escuro">Sobre nós</h2>
-                        <div className="flex items-center">
-                            <div data-aos="fade-right" className="w-[60%] lg:w-[60%]">
-                                <img src={sobre} alt="Foto de um robo" className="h-[40rem]" />
+                        <h2 data-aos="fade-down" className="my-8 text-[42px] 360:text-[2rem] text-center font-semibold text-transparent bg-clip-text bg-gradient-to-b from-green-400 via-green-400 to-saturation-azul-escuro">Sobre nós</h2>
+                        <div className="flex 360:flex-col md:flex-col items-center">
+                            <div data-aos="fade-right" className="w-[60%] lg:w-[60%] 360:w-auto md:w-[60%] sm:w-[80%]">
+                                <img src={sobre} alt="Foto de um robo" />
                             </div>
 
-                            <div data-aos="fade-left" className="w-[50%] text-justify flex flex-col gap-12 text-base lg:gap-8 xl:gap-8 1440:text-xl 2xl:text-xl full:text-xl">
+                            <div data-aos="fade-left" className="w-[50%] 360:w-[90%] sm:p-12 md:w-full md:p-12 360:py-6 text-justify flex flex-col gap-12 text-base md:text-xl lg:gap-8 xl:gap-8 1440:text-xl 2xl:text-xl full:text-xl">
                                 <div className="flex items-center">
                                     <span className="text-saturation-green">▸</span>
                                     <p className="ml-5">Com o nosso Labs, você pode elevar seu trabalho a um novo patamar e ao mesmo tempo, ajudar a construir um mundo melhor. Não estamos aqui para dominar, mas sim para revolucionar a maneira como as pessoas trabalham e se comunicam.</p>

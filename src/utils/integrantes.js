@@ -15,13 +15,14 @@ export const listIntegrantes = [
         imagem: bruno,
         nome: "Bruno Santos",
         funcao: "COO",
-        description: "Teste TesteTesteTesteTesteTesteTesteTesteTeste",
-        linkedin: "https://www.linkedin.com/in/bruno-santos-65b3b297/"
+        description: "Aqui você pode fazer parte de projetos únicos, conhecer pessoas incríveis, aprender novas tecnologia ou simplesmente se divertir! (Da até para fazer tudo isso ao mesmo tempo)",
+        linkedin: "https://www.linkedin.com/in/bruno-santos-65b3b297/",
     },
 
     {
         imagem: murilo,
         nome: "Murillo",
+        description: "Falta colocar",
         funcao: "Tech Lead",
         linkedin: "https://www.linkedin.com/in/xrow/"
     },
@@ -29,6 +30,7 @@ export const listIntegrantes = [
     {
         imagem: andre,
         nome: "André Lemuel",
+        description: "CMO, responsável pela estratégia de marketing e copywriting do site",
         funcao: "CMO",
         linkedin: "https://www.linkedin.com/in/andrelemuel/"
     },
@@ -36,6 +38,7 @@ export const listIntegrantes = [
     {
         imagem: kauan,
         nome: "Kauan Carvalho",
+        description: "UX/UI Designer, responsável pela modelagem do site e concepção da experiência do usuário",
         funcao: "Head of Design",
         linkedin: "https://www.linkedin.com/in/kauan-carvalho-156616204/"
     },
@@ -43,6 +46,7 @@ export const listIntegrantes = [
     {
         imagem: samuel,
         nome: "Samuel V. Ferreira",
+        description: "Falta colocar",
         funcao: "Design",
         linkedin: "https://www.linkedin.com/in/samuel-v-ferreira-251573244/"
     },
@@ -50,6 +54,7 @@ export const listIntegrantes = [
     {
         imagem: leon,
         nome: "Leon Bezerra",
+        description: "Falta colocar",
         funcao: "Especialista Jurídico",
         linkedin: "https://www.linkedin.com/in/leon-bezerra-30731697/"
     },
@@ -57,6 +62,7 @@ export const listIntegrantes = [
     {
         imagem: eduardo,
         nome: "Eduardo Manczenko",
+        description: "Falta colocar",
         funcao: "Smart Contracts",
         linkedin: "https://www.linkedin.com/in/eduardo-manczenko/"
     },
@@ -64,6 +70,7 @@ export const listIntegrantes = [
     {
         imagem: italo,
         nome: "Ítalo Araújo",
+        description: "Desenvolvedor Full Stack, responsável pelo desenvolvimento e programação do site",
         funcao: "Developer Full Stack",
         linkedin: "https://www.linkedin.com/in/italoaraujodev/"
     },
@@ -71,6 +78,7 @@ export const listIntegrantes = [
     {
         imagem: jaba,
         nome: "Judá Matheo",
+        description: "Desenvolvedor Backend, responsável pelo desenvolvimento e programação do site",
         funcao: "Developer Backend",
         linkedin: "https://www.linkedin.com/in/jud%C3%A1-matheo-vargas-4ba88a212/"
     },
@@ -78,6 +86,7 @@ export const listIntegrantes = [
     {
         imagem: fakeImagem,
         nome: "Você",
+        description: "Junte-se à nossa comunidade e viva experiências únicas",
         funcao: "Sua função",
         linkedin: undefined
     },
