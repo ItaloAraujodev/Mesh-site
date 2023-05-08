@@ -11,7 +11,7 @@ import { Carousel } from 'react-responsive-carousel'; */
 export default function Atividades() {
     return (
         <div id='atividade' className="w-full h-full pb-1 bg-gradient-to-r from-line-linear-azul to-line-linear-red ">
-            <div className="w-full h-full bg-azul-claro text-white flex items-center justify-center 360:py-12 py-32 ">
+            <div className="w-full h-full bg-azul-claro text-white flex items-center justify-center 360:py-28 py-40 ">
                 <div className='w-full h-2/3 flex flex-col'>
                     <h2 data-aos="zoom-in" className='text-center font-semibold text-[42px] text-transparent bg-clip-text 360:text-[2rem] bg-gradient-to-b from-line-linear-red via-line-linear-red to-saturation-azul-escuro'>Nossas Atividades</h2>
                     <div data-aos="zoom-in" className="w-full flex justify-center items-center gap-16 lg:gap-10 full:gap-[6rem]">

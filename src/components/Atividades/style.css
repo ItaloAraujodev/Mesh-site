@@ -32,7 +32,7 @@
 
 .slider {
     background: #181B2D;
-    height: 400px;
+    height: auto;
     margin: auto;
     position: relative;
     width: 90%;
@@ -125,14 +125,19 @@
     .box {
         width: 24rem !important;
         height: 20rem !important;
+        border-radius: 57px;
     }
 
-    .slider .slider-track {
-        width: calc(24rem * 18);
+    .box-context {
+        border-radius: 57px !important;
     }
 
     .box-context h3 {
         font-size: 24px;
+    }
+
+    .slider .slider-track {
+        width: calc(24rem * 18);
     }
 
     @keyframes scroll {

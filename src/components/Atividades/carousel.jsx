@@ -11,8 +11,8 @@ import './style.css'
 
 const caroul = () => {
   return (
-      <div className='slider mt-10'>
-        <div className='slider-track mt-[4rem] flex items-center'>
+      <div className='slider mt-16'>
+        <div className='slider-track mx-auto flex items-center'>
           <div className="box bg-gradient-to-bl from-saturation-green to-saturation-azul-claro ">
             <div className="box-context flex flex-col">
               <img src={produtos} alt="Produtos para Web3" />
