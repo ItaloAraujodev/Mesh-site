@@ -37,14 +37,6 @@ export default {
       fontFamily: {
         'russo-one': ['Russo One', 'sans-serif']
       },
-
-      height: {
-        'altura-person': '90%',
-      },
-
-      width: {
-        "largura-person": '90%',
-      }
     },
     screens: {
       //Mobile
