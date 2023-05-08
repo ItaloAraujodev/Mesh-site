@@ -140,10 +140,6 @@ const caroul = () => {
               <h3>Produtos</h3>
             </div>
           </div>
-      
-
-          
-
         </div>
       </div>
   )

@@ -63,7 +63,7 @@ function navBar() {
                         </motion.button>
                     </div>
                     <motion.ul
-                        className="w-full flex flex-col p-4 gap-4 bg-navBar text-white absolute top-16"
+                        className="w-full flex flex-col p-4 gap-4 bg-navBar text-white absolute top-14"
                         variants={{
                             open: {
                                 clipPath: "inset(0% 0% 0% 0% round 10px)",

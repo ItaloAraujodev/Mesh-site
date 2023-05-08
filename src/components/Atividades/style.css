@@ -1,6 +1,4 @@
 .box {
-    width: 24rem !important;
-    height: 20rem !important;
     border-radius: 57px;
     padding: 2px;
     margin-left: 2rem;
@@ -19,7 +17,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.2rem;
 }
 
 .box-context img {
@@ -90,17 +88,25 @@
 }
 
 @media screen and (min-width: 360px){
+    
     .box {
-        width: 20rem !important;
-        height: 18rem !important;
+        width: 12rem !important;
+        height: 10rem !important;
+        border-radius: 32px;
     }
 
     .slider .slider-track {
-        width: calc(20rem * 18);
+        width: calc(12rem * 18);
+        animation: scroll 60s linear infinite;
+    }
+
+    .box-context {
+        border-radius: 32px !important;
     }
 
     .box-context h3 {
-        font-size: 20px;
+        font-size: 14px;
+        padding: 0 6px;
     }
 
     @keyframes scroll {
@@ -109,13 +115,13 @@
         }
     
         100% {
-            transform: translateX(calc(-20rem * 9));
+            transform: translateX(calc(-12rem * 9));
         }
     }
 }
 
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 768px){
     .box {
         width: 24rem !important;
         height: 20rem !important;
@@ -123,6 +129,10 @@
 
     .slider .slider-track {
         width: calc(24rem * 18);
+    }
+
+    .box-context h3 {
+        font-size: 24px;
     }
 
     @keyframes scroll {
