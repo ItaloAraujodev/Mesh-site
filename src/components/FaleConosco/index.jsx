@@ -22,8 +22,8 @@ export default function FaleConosco() {
                             </p>
                         </div>
                         <div className='360:w-full flex gap-4 360:flex-col sm:flex-row 360:mx-auto md:flex-col'>
-                            <Button text='Marque uma reunião' url='https://calendly.com/brncrysis/call' />
-                            <Button text='Envie sua ideia' url='https://1y7idwqhetx.typeform.com/to/Y2RL4h8P' />
+                            <Button text='Marque uma reunião' url='https://calendly.com/brncrysis/call'  redirect='_blank' />
+                            <Button text='Envie sua ideia' url='https://1y7idwqhetx.typeform.com/to/Y2RL4h8P'  redirect='_blank' />
                         </div>
                     </div>
                 </div>
