@@ -40,7 +40,8 @@ export default {
     },
     screens: {
       //Mobile
-      '360': { 'min': '360px', 'max': '640px' }, 
+      '360': { 'min': '360px', 'max': '640px' },
+      //'360-1': { 'min': '360px', 'raw': '(max-height: 760px)' },
       '414': { 'min': '414px', 'max': '896px' }, 
       '375': { 'min': '375px', 'max': '667px' }, 
       '360-2': { 'min': '360px', 'max': '780px' }, 
