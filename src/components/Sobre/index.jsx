@@ -14,7 +14,7 @@ export default function Sobre() {
                     <h2 data-aos="fade-down" className="my-8 text-[42px] 360:text-[2rem] text-center font-semibold text-transparent bg-clip-text bg-gradient-to-b from-green-400 via-green-400 to-saturation-azul-escuro">Sobre nós</h2>
                     <div className="flex 360:flex-col md:flex-col items-center">
                         <div data-aos="fade-right" className="w-[60%] lg:w-[60%] 360:w-auto md:w-[60%] sm:w-[80%]">
-                            <img src={sobre} alt="Foto de um robo" />
+                            <img src={sobre} alt="Foto de um robo" draggable="false" />
                         </div>
 
                         <div data-aos="fade-left" className="w-[50%] 360:w-[90%] sm:p-12 md:w-full md:p-12 360:py-6 text-justify flex flex-col gap-16 text-base md:text-xl lg:gap-8 xl:gap-8 1440:text-xl 2xl:text-xl full:text-xl">

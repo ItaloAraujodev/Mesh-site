@@ -25,7 +25,7 @@ function navBar() {
             <div className='w-full h-16 fixed bg-navBar flex justify-center 360:hidden sm:hidden'>
                 <div className='w-10/12 flex items-center justify-between'>
                     <div>
-                        <img src={icon} alt="Logo da Mesh" />
+                        <img src={icon} alt="Logo da Mesh" draggable="false" />
                     </div>
                     <div>
                         <ul className='text-white text-base md:text-sm full:text-lg flex gap-8 lg:gap-16 xl:gap-14 1440:gap-16 2xl:gap-[5rem] full:gap-[6rem] '>
@@ -37,8 +37,8 @@ function navBar() {
                         </ul>
                     </div>
                     <div className='flex gap-4 full:gap-6'>
-                        <img src={brasil} alt="Bandeira do brasil" />
-                        <img src={american} alt="Bandeira do Estados unidos" />
+                        <img src={brasil} alt="Bandeira do brasil" draggable="false" />
+                        <img src={american} alt="Bandeira do Estados unidos" draggable="false"/>
                     </div>
                 </div>
             </div>
@@ -51,7 +51,7 @@ function navBar() {
                 >
                     <div className='w-[80%] h-full mx-auto justify-between items-center flex'>
                         <div>
-                            <img src={icon} alt="Logo da Mesh" />
+                            <img src={icon} alt="Logo da Mesh" draggable="false" />
                         </div>
 
                         <motion.button

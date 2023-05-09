@@ -23,7 +23,7 @@ export default function Integrantes() {
                                 <div
                                     className='group-hover:invisible flex flex-col items-center'>
                                     <div className='w-40 h-40 md:w-28 md:h-28 lg:w-32 lg:h-32'>
-                                        <img src={item.imagem} alt={`Foto do ${item.name}`} className='object-cover rounded-[20px]' />
+                                        <img src={item.imagem} alt={`Foto do ${item.name}`} draggable="false" className='object-cover rounded-[20px]' />
                                     </div>
 
                                     <div className='text-center mt-2'>
