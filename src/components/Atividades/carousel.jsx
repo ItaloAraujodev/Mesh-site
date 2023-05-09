@@ -15,63 +15,63 @@ const caroul = () => {
         <div className='slider-track mx-auto flex items-center'>
           <div className="box bg-gradient-to-bl from-saturation-green to-saturation-azul-claro ">
             <div className="box-context flex flex-col">
-              <img src={produtos} alt="Produtos para Web3" />
+              <img src={produtos} alt="Produtos para Web3" draggable="false"  />
               <h3>Produtos para Web3</h3>
             </div>
           </div>
 
           <div className="box bg-gradient-to-bl from-saturation-red to-saturation-azul-claro">
             <div className="box-context">
-              <img src={money} alt="SaaS para Fintechs" />
+              <img src={money} alt="SaaS para Fintechs" draggable="false" />
               <h3>SaaS para Fintechs</h3>
             </div>
           </div>
 
           <div className="box bg-gradient-to-b from-saturation-green to-saturation-azul-claro">
             <div className="box-context">
-              <img src={banco} alt="De-Fi e economias descentralizadas" />
+              <img src={banco} alt="De-Fi e economias descentralizadas" draggable="false" />
               <h3>De-Fi e economias descentralizadas</h3>
             </div>
           </div>
 
           <div className="box bg-gradient-to-br from-saturation-green to-saturation-azul-claro">
             <div className="box-context">
-              <img src={digital} alt="Branding" />
+              <img src={digital} alt="Branding" draggable="false" />
               <h3>Branding</h3>
             </div>
           </div>
 
           <div className="box bg-gradient-to-bl from-saturation-red to-saturation-azul-claro">
             <div className="box-context">
-              <img src={blockchain} alt="Blockchain as a Service" />
+              <img src={blockchain} alt="Blockchain as a Service" draggable="false" />
               <h3>Blockchain as a Service</h3>
             </div>
           </div>
 
           <div className="box bg-gradient-to-b from-saturation-green to-saturation-azul-claro">
             <div className="box-context">
-              <img src={nfts} alt="NFTs" />
+              <img src={nfts} alt="NFTs" draggable="false" />
               <h3>NFTs</h3>
             </div>
           </div>
 
           <div className="box bg-gradient-to-br from-saturation-green to-saturation-azul-claro">
             <div className="box-context">
-              <img src={token} alt="Tokens" />
+              <img src={token} alt="Tokens" draggable="false" />
               <h3>Tokens</h3>
             </div>
           </div>
 
           <div className="box bg-gradient-to-bl from-saturation-red to-saturation-azul-claro">
             <div className="box-context">
-              <img src={ageis} alt="Metodos ágeis" />
+              <img src={ageis} alt="Metodos ágeis" draggable="false" />
               <h3>Metodos ágeis</h3>
             </div>
           </div>
 
           <div className="box bg-gradient-to-b from-saturation-green to-saturation-azul-claro">
             <div className="box-context">
-              <img src={product} alt="Produtos" />
+              <img src={product} alt="Produtos" draggable="false" />
               <h3>Produtos</h3>
             </div>
           </div>
@@ -80,63 +80,63 @@ const caroul = () => {
 
           <div className="box bg-gradient-to-bl from-saturation-green to-saturation-azul-claro ">
             <div className="box-context flex flex-col">
-              <img src={produtos} alt="Produtos para Web3" />
+              <img src={produtos} alt="Produtos para Web3" draggable="false" />
               <h3>Produtos para Web3</h3>
             </div>
           </div>
 
           <div className="box bg-gradient-to-bl from-saturation-red to-saturation-azul-claro">
             <div className="box-context">
-              <img src={money} alt="SaaS para Fintechs" />
+              <img src={money} alt="SaaS para Fintechs" draggable="false" />
               <h3>SaaS para Fintechs</h3>
             </div>
           </div>
 
           <div className="box bg-gradient-to-b from-saturation-green to-saturation-azul-claro">
             <div className="box-context">
-              <img src={banco} alt="De-Fi e economias descentralizadas" />
+              <img src={banco} alt="De-Fi e economias descentralizadas" draggable="false" />
               <h3>De-Fi e economias descentralizadas</h3>
             </div>
           </div>
 
           <div className="box bg-gradient-to-br from-saturation-green to-saturation-azul-claro">
             <div className="box-context">
-              <img src={digital} alt="Branding" />
+              <img src={digital} alt="Branding" draggable="false" />
               <h3>Branding</h3>
             </div>
           </div>
 
           <div className="box bg-gradient-to-bl from-saturation-red to-saturation-azul-claro">
             <div className="box-context">
-              <img src={blockchain} alt="Blockchain as a Service" />
+              <img src={blockchain} alt="Blockchain as a Service" draggable="false" />
               <h3>Blockchain as a Service</h3>
             </div>
           </div>
 
           <div className="box bg-gradient-to-b from-saturation-green to-saturation-azul-claro">
             <div className="box-context">
-              <img src={nfts} alt="NFTs" />
+              <img src={nfts} alt="NFTs" draggable="false" />
               <h3>NFTs</h3>
             </div>
           </div>
 
           <div className="box bg-gradient-to-br from-saturation-green to-saturation-azul-claro">
             <div className="box-context">
-              <img src={token} alt="Tokens" />
+              <img src={token} alt="Tokens" draggable="false" />
               <h3>Tokens</h3>
             </div>
           </div>
 
           <div className="box bg-gradient-to-bl from-saturation-red to-saturation-azul-claro">
             <div className="box-context">
-              <img src={ageis} alt="Metodos ágeis" />
+              <img src={ageis} alt="Metodos ágeis" draggable="false" />
               <h3>Metodos ágeis</h3>
             </div>
           </div>
 
           <div className="box bg-gradient-to-b from-saturation-green to-saturation-azul-claro">
             <div className="box-context">
-              <img src={product} alt="Produtos" />
+              <img src={product} alt="Produtos" draggable="false" />
               <h3>Produtos</h3>
             </div>
           </div>

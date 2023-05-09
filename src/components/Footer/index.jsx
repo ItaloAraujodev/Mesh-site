@@ -17,7 +17,7 @@ export default function Footer(){
                 <span className='border h-[40%] border-gray-500 mx-24 lg:mx-12 360:hidden md:hidden'></span>
 
                 <div className='flex flex-col items-center w-[62px]'>
-                    <img src={logo} alt="Logo da Mesh" className='object-cover w-[80%]' />
+                    <img src={logo} alt="Logo da Mesh" draggable="false" className='object-cover w-[80%]' />
                     <h2 className='text-white italic font-semibold mt-2 tracking-widest '>MESH</h2>
                 </div>
 
