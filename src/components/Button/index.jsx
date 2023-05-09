@@ -14,7 +14,7 @@ export default function Button(props) {
             <motion.button
                 whileHover={{ backgroundColor: '#283563' }}
                 transition={{ delay: 0.024 }}
-                className="w-full h-[40px] 360:text-[14px] sm:text-base md:text-[16px] text-lg lg:text-sm xl:text-base rounded-[50px] bg-azul-claro"><a href={url} target={redirect} rel="noreferrer" >{text}</a></motion.button>
+                className="w-full h-[40px] text-base xl:text-xl 2xl:text-xl rounded-[50px] bg-azul-claro"><a href={url} target={redirect} rel="noreferrer" >{text}</a></motion.button>
         </motion.div>
     )
 }

@@ -14,7 +14,7 @@ export default function FaleConosco() {
                         <img src={aviao} alt="Imagem de um avião de papel" draggable="false" className='object-cover' />
                     </div>
 
-                    <div data-aos="fade-left" className='w-full h-auto flex flex-col my-auto 360:text-center gap-10 360:mt-10 md:gap-8 md:w-[calc(100%-3.5rem)] md:ml-14'>
+                    <div data-aos="fade-left" className='w-[calc(100%-3.5rem)] h-auto my-auto flex flex-col 360:text-center gap-10 360:mt-10 ml-14 360:mx-auto'>
                         <div>
                             <h2 className='text-[1.2rem] full:text-[1.6rem] 2xl:text-[1.6rem] mb-4 font-semibold' >Vamos tirar sua idéia do papel?</h2>
                             <p className='text-lg full:text-xl font-light'>
