@@ -8,7 +8,7 @@ export default function FaleConosco() {
             <h2 data-aos="zoom-in" className='text-[42px] 360:text-[2rem] mb-14 text-transparent bg-clip-text bg-gradient-to-b from-line-linear-red via-line-linear-red to-saturation-azul-escuro' >Fale conosco</h2>
             <img src={ponto} alt="" draggable="false" className='absolute left-[3rem] top-36 360:invisible md:w-28 md:top-40' />
             <img src={ponto} alt="" draggable="false" className='absolute right-[3rem] bottom-6 rotate-180 360:invisible md:w-28 md:bottom-10' />
-            <div className='flex justify-center bg-saturation-preto 360:py-12 py-24  '>
+            <div className='w-full flex justify-center bg-saturation-preto 360:py-12 py-24  '>
                 <div data-aos="fade-right" className='w-[80%] h-full grid grid-cols-2 items-stretch 360:grid-cols-1'>
                     <div className='my-auto'>
                         <img src={aviao} alt="Imagem de um avião de papel" draggable="false" className='object-cover' />
