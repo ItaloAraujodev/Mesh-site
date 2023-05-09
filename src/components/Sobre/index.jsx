@@ -32,7 +32,7 @@ export default function Sobre() {
                                 <span className="text-saturation-green">▸</span>
                                 <p className="ml-5">Saiba mais sobre o nosso trabalho e venha fazer a diferença conosco. Juntos, podemos alcançar grandes conquistas e tornar o mundo um lugar mais inclusivo e acessível para todos.</p>
                             </div>
-                            <div className='w-full 360:mx-auto sm:mx-0 mb-10'>
+                            <div className='w-[260px] 360:mx-auto sm:mx-0 mb-10'>
                                 <Button text="Conheça mais sobre nós" url="#inte" />
                             </div>
                         </div>
