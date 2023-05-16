@@ -6,9 +6,9 @@ const Details = ({ imgProp, nameProp, description  }) => {
             <div className="w-full h-[360px] 360:h-auto text-white">
                 <div className="flex items-center mb-4 gap-4 px-4">
                     <img src={imgProp} alt="" draggable="false" />
-                    <h1 className="font-semibold text-xl">{nameProp}</h1>
+                    <h1 className="font-semibold text-[20px]">{nameProp}</h1>
                 </div>
-                <p className="text-base text-[#B7BCD1] text-start px-4">{description}</p>
+                <p className="text-[16px] text-[#B7BCD1] text-start px-4">{description}</p>
             </div>
         </>
     )
