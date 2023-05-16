@@ -1,6 +1,6 @@
 import espaco from '../../assets/Home/espaco.svg'
 
-export default function Home() {
+export default function HomeComp() {
     return (
         <section id='home' className="w-full relative h-screen bg-saturation-preto z-0" >
             <div className='flex items-center justify-center mb-4 z-10'>

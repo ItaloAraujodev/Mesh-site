@@ -1,3 +1,5 @@
+
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -36,6 +38,9 @@ export default {
 
       fontFamily: {
         'russo-one': ['Russo One', 'sans-serif']
+      },
+      backgroundImage: {
+        'planejamento': "url('/src/assets/Trabalhamos/planejamento.svg')"
       },
     },
     screens: {

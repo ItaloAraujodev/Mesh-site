@@ -1,13 +1,14 @@
-import fakeImagem from '../assets/Integrantes/fakeimg.svg'
-import andre from '../assets/Integrantes/andre.jpeg'
-import bruno from '../assets/Integrantes/bruno.jpg'
-import eduardo from '../assets/Integrantes/eduardo.jpeg'
-import kauan from '../assets/Integrantes/kauan.jpeg'
-import leon from '../assets/Integrantes/leon.jpeg'
-import murilo from '../assets/Integrantes/xr.jpeg'
-import samuel from '../assets/Integrantes/samuel.jpeg'
-import italo from '../assets/Integrantes/italo.jpg'
-import jaba from '../assets/Integrantes/jaba.jpeg'
+import fakeImagem from '../assets/Integrantes/fakeimg.svg';
+import bruno from '../assets/Integrantes/bruno.jpg';
+import eduardo from '../assets/Integrantes/eduardo.jpeg';
+import kauan from '../assets/Integrantes/kauan.jpeg';
+import leon from '../assets/Integrantes/leon.jpeg';
+import murilo from '../assets/Integrantes/xr.jpeg';
+import samuel from '../assets/Integrantes/samuel.jpeg';
+import italo from '../assets/Integrantes/italo.jpg';
+import jaba from '../assets/Integrantes/jaba.jpeg';
+import anthony from '../assets/Integrantes/anthony.jpeg';
+import gabriel from '../assets/Integrantes/gabriel.jpg';
 
 
 export const listIntegrantes = [
@@ -25,14 +26,6 @@ export const listIntegrantes = [
         description: "Falta colocar",
         funcao: "Tech Lead",
         linkedin: "https://www.linkedin.com/in/xrow/"
-    },
-
-    {
-        imagem: andre,
-        nome: "André Lemuel",
-        description: "CMO, responsável pela estratégia de marketing e copywriting do site",
-        funcao: "CMO",
-        linkedin: "https://www.linkedin.com/in/andrelemuel/"
     },
 
     {
@@ -60,6 +53,14 @@ export const listIntegrantes = [
     },
 
     {
+        imagem: anthony,
+        nome: "Anthony Nogueira",
+        description: "Falta colocar",
+        funcao: "Especialista Jurídico",
+        linkedin: "https://www.linkedin.com/in/anthony-nogueira-6ab683121/"
+    },
+
+    {
         imagem: eduardo,
         nome: "Eduardo Manczenko",
         description: "Falta colocar",
@@ -81,6 +82,14 @@ export const listIntegrantes = [
         description: "Desenvolvedor Backend, responsável pelo desenvolvimento e programação do site",
         funcao: "Developer Backend",
         linkedin: "https://www.linkedin.com/in/jud%C3%A1-matheo-vargas-4ba88a212/"
+    },
+
+    {
+        imagem: gabriel,
+        nome: "Gabriel Almeida",
+        description: "Desenvolvedor Full Stack, responsável pelo desenvolvimento e programação do site",
+        funcao: "Developer Full Stack",
+        linkedin: "https://www.linkedin.com/in/vin%C3%ADcius-gabriel-dev/"
     },
 
     {

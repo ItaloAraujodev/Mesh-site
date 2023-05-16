@@ -37,7 +37,6 @@
     position: relative;
     width: 90%;
     overflow: hidden;
-    
 }
 
 .slider::before, .slider::after {
@@ -47,6 +46,7 @@
     position: absolute;
     width: 100px;
     z-index: 2;
+    
 }
 
 .slider::after {

@@ -7,8 +7,7 @@ export default function Juntar() {
             <div className="w-full h-full bg-gradient-to-r from-azul-claro via-saturation-azul-escuro to-azul-claro text-white flex justify-center py-24">
                 <div className="flex flex-col justify-center items-center">
                     <div data-aos="fade-down" className="w-[90%] flex flex-col items-center mb-12">
-                        <h2 className='text-center leading-2 text-[42px] 360:text-[2rem] 360:mb-[3.5rem] mb-12 text-transparent bg-clip-text bg-gradient-to-b from-green-400 via-green-400 to-saturation-azul-escuro'>Porque você deve ser juntar a nós</h2>
-                        <p className=" text-center mt-[-2.5rem] text-xl 360:text-[1rem]">Seja Membro da MESH e faça parte da construção de um modelo de mercado descentralizado</p>
+                        <h2 className='font-russo-one text-center leading-2 text-[42px] 360:text-[2rem] 360:mb-[3.5rem]'>Porque você deve ser juntar a nós</h2>
                     </div>
 
                     <div className="w-full flex 360:flex-col justify-center items-center gap-8 md:gap-5 full:gap-12">

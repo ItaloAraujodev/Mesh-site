@@ -5,7 +5,7 @@ import Button from '../Button'
 export default function FaleConosco() {
     return (
         <section id='fale' className="w-full h-full text-white flex flex-col items-center py-24 360:h-auto relative bg-azul-claro">
-            <h2 data-aos="zoom-in" className='text-[42px] 360:text-[2rem] mb-14 text-transparent bg-clip-text bg-gradient-to-b from-line-linear-red via-line-linear-red to-saturation-azul-escuro' >Fale conosco</h2>
+            <h2 data-aos="zoom-in" className='text-[42px] font-russo-one font-white 360:text-[2rem] mb-14 ' >Fale conosco</h2>
             <img src={ponto} alt="" draggable="false" className='absolute left-[3rem] top-36 360:invisible md:w-28 md:top-40' />
             <img src={ponto} alt="" draggable="false" className='absolute right-[3rem] bottom-6 rotate-180 360:invisible md:w-28 md:bottom-10' />
             <div className='w-full flex justify-center bg-saturation-preto 360:py-12 py-24  '>
@@ -22,8 +22,8 @@ export default function FaleConosco() {
                             </p>
                         </div>
                         <div className='360:w-full flex gap-4 360:flex-col sm:flex-row 360:mx-auto md:flex-col'>
-                            <Button text='Marque uma reunião' url='https://calendly.com/brncrysis/call'  redirect='_blank' />
-                            <Button text='Envie sua ideia' url='https://1y7idwqhetx.typeform.com/to/Y2RL4h8P'  redirect='_blank' />
+                            <Button text='Marque uma reunião' url='https://calendly.com/brncrysis/call' redirect='_blank' />
+                            <Button text='Envie sua ideia' url='https://1y7idwqhetx.typeform.com/to/Y2RL4h8P' redirect='_blank' />
                         </div>
                     </div>
                 </div>
