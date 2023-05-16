@@ -21,7 +21,7 @@ const Planejamento = () => {
             </div>
 
             <div className="w-full h-auto mt-16 bg-saturation-preto py-40">
-                <div className="w-[80%] grid grid-cols-3 mx-auto gap-y-6 360:grid-cols-1 md:grid-cols-2 md:gap-y-44 xl:gap-y-44 gap-x-7 lg:grid-cols-2">
+                <div className="w-[80%] grid grid-cols-3 mx-auto gap-y-6 360:grid-cols-1 360:gap-y-10 md:grid-cols-2 md:gap-y-44 xl:gap-y-44 gap-x-7 lg:grid-cols-2">
 
                     <div className="w-full h-[360px] text-white px-4 360:h-auto">
                         <h1 className="font-bold text-2xl">A Base do sucesso do projeto</h1>

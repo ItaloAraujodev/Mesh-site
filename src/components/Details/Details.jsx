@@ -4,7 +4,7 @@ const Details = ({ imgProp, nameProp, description  }) => {
     return (
         <>
             <div className="w-full h-[360px] 360:h-auto text-white">
-                <div className="flex items-center gap mb-4 gap-4 px-4 ">
+                <div className="flex items-center mb-4 gap-4 px-4">
                     <img src={imgProp} alt="" draggable="false" />
                     <h1 className="font-semibold text-xl">{nameProp}</h1>
                 </div>
