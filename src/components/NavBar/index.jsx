@@ -25,7 +25,7 @@ function navBar() {
             <div className='w-full h-16 fixed bg-navBar flex justify-center 360:hidden sm:hidden'>
                 <div className='w-10/12 flex items-center justify-between'>
                     <div>
-                        <img src={icon} alt="Logo da Mesh" draggable="false" />
+                        <a href="/"><img src={icon} alt="Logo da Mesh" draggable="false" /></a>
                     </div>
                     <div>
                         <ul className='text-white text-base md:text-sm full:text-lg flex gap-8 lg:gap-16 xl:gap-14 1440:gap-16 2xl:gap-[5rem] full:gap-[6rem] '>
