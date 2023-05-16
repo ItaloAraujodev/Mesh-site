@@ -24,8 +24,8 @@ const Criacao = () => {
 
           <div className="w-full h-[360px] text-white px-4 360:h-auto">
             <h1 className="font-bold text-2xl">Transformando Ideias em Realidade</h1>
-            <p className="text-base text-[#B7BCD1] text-justify mt-[8px]">A seção de Criação é onde a magia acontece. Nessa etapa, transformamos ideias em realidade, dando vida aos conceitos e objetivos definidos durante o planejamento.</p>
-            <p className="text-base text-[#B7BCD1] text-justify mt-8">A equipe criativa se envolve de forma intensa nessa fase, utilizando sua expertise e habilidades para desenvolver soluções inovadoras e impactantes. A partir das diretrizes estabelecidas, são criados designs, layouts, interfaces e conteúdos que agregam valor ao projeto</p>
+            <p className="text-base text-[#B7BCD1] text-start mt-[8px]">A seção de Criação é onde a magia acontece. Nessa etapa, transformamos ideias em realidade, dando vida aos conceitos e objetivos definidos durante o planejamento.</p>
+            <p className="text-base text-[#B7BCD1] text-start mt-8">A equipe criativa se envolve de forma intensa nessa fase, utilizando sua expertise e habilidades para desenvolver soluções inovadoras e impactantes. A partir das diretrizes estabelecidas, são criados designs, layouts, interfaces e conteúdos que agregam valor ao projeto</p>
           </div>
 
           <Details imgProp={iconBriefing} nameProp="Briefing e Entendimento do Projeto" description="Durante está etapa, compreendemos as necessidades, objetivos e requisitos do projeto por meio de reuniões com o cliente, coleta de informações detalhadas e alinhamento de expectativas. Com base nessas informações, delineamos as diretrizes do projeto, incluindo identidade visual, arquitetura de informações e funcionalidades desejadas. Também consideramos aspectos como usabilidade, acessibilidade e experiência do usuário" />

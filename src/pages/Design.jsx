@@ -24,7 +24,7 @@ const Desing = () => {
 
           <div className="w-full h-[360px] text-white px-4 360:h-auto">
             <h1 className="font-bold text-2xl">Transformando ideias em uma experiência visual impactante</h1>
-            <p className="text-base text-[#B7BCD1] mt-[8px]">A etapa de design em um projeto desempenha um papel fundamental na criação de uma experiência visual impactante e envolvente. É nessa fase que as ideias se transformam em elementos concretos, como layouts, cores, tipografia e elementos interativos. O design não se limita apenas à estética, mas também tem um impacto significativo na usabilidade e na experiência do usuário</p>
+            <p className="text-base text-[#B7BCD1] text-start mt-[8px]">A etapa de design em um projeto desempenha um papel fundamental na criação de uma experiência visual impactante e envolvente. É nessa fase que as ideias se transformam em elementos concretos, como layouts, cores, tipografia e elementos interativos. O design não se limita apenas à estética, mas também tem um impacto significativo na usabilidade e na experiência do usuário</p>
           </div>
 
           <Details imgProp={iconAnalise} nameProp="Análise da identidade da marca" description="A análise da identidade da marca é um passo crucial no processo de design, pois estabelece os alicerces para a criação de uma experiência visual autêntica e consistente. Nessa etapa, mergulhamos fundo na compreensão da proposta de valor da empresa, seus valores fundamentais e a mensagem que deseja transmitir ao público-alvo" />

@@ -23,7 +23,7 @@ const Desenvolvimento = () => {
 
           <div className="w-full h-[360px] text-white px-4 360:h-auto">
             <h1 className="font-bold text-2xl">Desenvolvimento: Um dos pilares para o sucesso</h1>
-            <p className="text-base text-[#B7BCD1] mt-[8px]">Aqui onde as ideias ganham vida e se transformam em uma solução funcional e de alta qualidade. Nossa equipe de desenvolvimento altamente qualificada e experiente trabalha incansavelmente para transformar os conceitos e designs em uma experiência interativa e envolvente. Utilizando tecnologias avançadas e metodologias ágeis, garantimos que o produto final seja robusto, escalável e eficiente</p>
+            <p className="text-base text-[#B7BCD1] text-start mt-[8px]">Aqui onde as ideias ganham vida e se transformam em uma solução funcional e de alta qualidade. Nossa equipe de desenvolvimento altamente qualificada e experiente trabalha incansavelmente para transformar os conceitos e designs em uma experiência interativa e envolvente. Utilizando tecnologias avançadas e metodologias ágeis, garantimos que o produto final seja robusto, escalável e eficiente</p>
           </div>
 
           <Details imgProp={iconRequisito} nameProp="Análise de requisitos" description="É essencial compreender em profundidade as necessidades e expectativas do cliente, bem como as restrições técnicas que possam influenciar o desenvolvimento do projeto. Realizamos reuniões e entrevistas para obter informações detalhadas sobre as funcionalidades desejadas, a experiência do usuário esperada e os objetivos gerais do projeto. Também buscamos identificar requisitos não funcionais, como desempenho, segurança, escalabilidade e compatibilidade com outras tecnologias" />
