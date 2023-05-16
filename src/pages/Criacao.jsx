@@ -15,7 +15,7 @@ const Criacao = () => {
     <>
       <NavBar />
       <div className="w-full h-[257px] relative top-16 pb-[2px] bg-gradient-to-r from-line-linear-azul to-line-linear-red">
-        <img src={bannerCriacao} alt="Planejamento" className="w-full h-full object-cover object-center" />
+        <img src={bannerCriacao} alt="Criação" draggable="false" className="w-full h-full object-cover object-center" />
         <h1 className="text-white text-[54px] font-russo-one absolute bottom-6 left-[10%] 360:text-4xl">Criação</h1>
       </div>
 

@@ -5,7 +5,7 @@ const Produto = ({ imgProp, nameProp, linkProp }) => {
 
   return (
     <div className="w-[366px] h-[366px] 360:w-[300px] 360:h-[300px] md:w-[300px] md:h-[300px] relative bg-gradient-to-b from-[#EC2158] via-[#EC2158] to-[#498CF1] rounded-2xl">
-      <img src={imgProp} alt="" className='w-full h-full object-cover rounded-2xl p-[2px] absolute' loading="lazy" />
+      <img src={imgProp} alt="" draggable="false" className='w-full h-full object-cover rounded-2xl p-[2px] absolute' loading="lazy" />
     
       <div className='w-full h-full flex flex-col justify-end items-center absolute p-6'>
         <h2 className='text-white font-bold text-[26px] text-center'>{nameProp}</h2>

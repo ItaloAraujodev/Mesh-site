@@ -16,7 +16,7 @@ const Planejamento = () => {
             
             <NavBar />
             <div className="w-full h-auto relative top-16 pb-[2px] bg-gradient-to-r from-line-linear-azul to-line-linear-red">
-                <img src={bannerPlanejamento} alt="Planejamento" className="w-full h-full object-cover object-center" />
+                <img src={bannerPlanejamento} alt="Planejamento" draggable="false" className="w-full h-full object-cover object-center" />
                 <h1 className="text-white text-[54px] font-russo-one absolute bottom-6 left-[10%] 360:text-4xl">Planejamento</h1>
             </div>
 
