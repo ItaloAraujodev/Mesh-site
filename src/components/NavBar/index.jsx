@@ -30,11 +30,11 @@ function navBar() {
                     </div>
                     <div>
                         <ul className='text-white text-base md:text-sm full:text-lg flex gap-8 lg:gap-16 xl:gap-14 1440:gap-16 2xl:gap-[5rem] full:gap-[6rem] '>
-                            <li><a href="#home" className='hover:opacity-80'>Home</a></li>
-                            <li><a href="#atividade" className='hover:opacity-80'>Serviços</a></li>
-                            <li><a href="#sobre" className='hover:opacity-80'>Quem somos</a></li>
-                            <li><a href="#fale" className='hover:opacity-80'>Fale Conosco</a></li>
-                            <li><a href="#inte" className='hover:opacity-80'>Equipe</a></li>
+                            <li><a href="/#home" className='hover:opacity-80'>Home</a></li>
+                            <li><a href="/#atividade" className='hover:opacity-80'>Serviços</a></li>
+                            <li><a href="/#sobre" className='hover:opacity-80'>Quem somos</a></li>
+                            <li><a href="/#fale" className='hover:opacity-80'>Fale Conosco</a></li>
+                            <li><a href="/#inte" className='hover:opacity-80'>Equipe</a></li>
                         </ul>
                     </div>
                     <div className='flex gap-4 full:gap-6'>
@@ -87,11 +87,11 @@ function navBar() {
                         }}
                         style={{ pointerEvents: toogle ? "auto" : "none" }}
                     >
-                        <motion.li variants={itemVariants}><a href="#home" className='hover:text-saturation-azul-escuro'>Home</a></motion.li>
-                        <motion.li variants={itemVariants}><a href="#atividade" className='hover:text-saturation-azul-escuro'>Serviços</a></motion.li>
-                        <motion.li variants={itemVariants}><a href="#sobre" className='hover:text-saturation-azul-escuro'>Quem somos</a></motion.li>
-                        <motion.li variants={itemVariants}><a href="#fale" className='hover:text-saturation-azul-escuro'>Fale Conosco</a></motion.li>
-                        <motion.li variants={itemVariants}><a href="#inte" className='hover:text-saturation-azul-escuro'>Equipe</a></motion.li>
+                        <motion.li variants={itemVariants}><a href="/#home" className='hover:opacity-80'>Home</a></motion.li>
+                        <motion.li variants={itemVariants}><a href="/#atividade" className='hover:opacity-80'>Serviços</a></motion.li>
+                        <motion.li variants={itemVariants}><a href="/#sobre" className='hover:opacity-80'>Quem somos</a></motion.li>
+                        <motion.li variants={itemVariants}><a href="/#fale" className='hover:opacity-80'>Fale Conosco</a></motion.li>
+                        <motion.li variants={itemVariants}><a href="/#inte" className='hover:opacity-80'>Equipe</a></motion.li>
                     </motion.ul>
                 </motion.div>
             </div>
