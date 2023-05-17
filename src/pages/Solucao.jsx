@@ -1,6 +1,7 @@
+import { ScrollRestoration } from "react-router-dom";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import { ScrollRestoration } from "react-router-dom";
+/* ---------- IMAGENS ------------------ */
 import bannerSolucao from '../assets/planejamento/bannerSolucao.svg';
 import iconNecessidade from '../assets/planejamento/icon/iconNecessidade.svg';
 import iconSolucao from '../assets/planejamento/icon/iconSolucao.svg';

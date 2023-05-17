@@ -7,6 +7,7 @@ import { BiMenu } from 'react-icons/bi';
 import { AiOutlineClose } from 'react-icons/ai';
 
 function navBar() {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
 
     const itemVariants = {
         open: {
@@ -29,16 +30,16 @@ function navBar() {
                     </div>
                     <div>
                         <ul className='text-white text-base md:text-sm full:text-lg flex gap-8 lg:gap-16 xl:gap-14 1440:gap-16 2xl:gap-[5rem] full:gap-[6rem] '>
-                            <li><a href="#home" className='hover:text-saturation-azul-escuro'>Home</a></li>
-                            <li><a href="#atividade" className='hover:text-saturation-azul-escuro'>Serviços</a></li>
-                            <li><a href="#sobre" className='hover:text-saturation-azul-escuro'>Quem somos</a></li>
-                            <li><a href="#fale" className='hover:text-saturation-azul-escuro'>Fale Conosco</a></li>
-                            <li><a href="#inte" className='hover:text-saturation-azul-escuro'>Equipe</a></li>
+                            <li><a href="#home" className='hover:opacity-80'>Home</a></li>
+                            <li><a href="#atividade" className='hover:opacity-80'>Serviços</a></li>
+                            <li><a href="#sobre" className='hover:opacity-80'>Quem somos</a></li>
+                            <li><a href="#fale" className='hover:opacity-80'>Fale Conosco</a></li>
+                            <li><a href="#inte" className='hover:opacity-80'>Equipe</a></li>
                         </ul>
                     </div>
                     <div className='flex gap-4 full:gap-6'>
                         <img src={brasil} alt="Bandeira do brasil" draggable="false" />
-                        <img src={american} alt="Bandeira do Estados unidos" draggable="false"/>
+                        <img src={american} alt="Bandeira do Estados unidos" draggable="false" className='opacity-50'/>
                     </div>
                 </div>
             </div>
@@ -51,7 +52,7 @@ function navBar() {
                 >
                     <div className='w-[80%] h-full mx-auto justify-between items-center flex'>
                         <div>
-                            <img src={icon} alt="Logo da Mesh" draggable="false" />
+                            <a href="/"><img src={icon} alt="Logo da Mesh" draggable="false" /></a>
                         </div>
 
                         <motion.button

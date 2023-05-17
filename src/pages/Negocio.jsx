@@ -1,6 +1,7 @@
+import { ScrollRestoration } from "react-router-dom";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import { ScrollRestoration } from "react-router-dom";
+/* ---------- IMAGENS ------------------ */
 import bannerNegocio from '../assets/planejamento/bannerNegocio.svg';
 import iconColeta from '../assets/planejamento/icon/iconColeta.svg';
 import iconDados from '../assets/planejamento/icon/iconDados.svg';

@@ -1,5 +1,7 @@
+import { ScrollRestoration } from "react-router-dom";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+/* ---------- IMAGENS ------------------ */
 import bannerPlanejamento from '../assets/planejamento/bannerPlanejamento.svg';
 import iconPesquisa from '../assets/planejamento/icon/iconPesquisa.svg';
 import iconDescoberta from '../assets/planejamento/icon/iconDescoberta.svg';
@@ -8,9 +10,7 @@ import iconObjetivos from '../assets/planejamento/icon/iconObjetivos.svg';
 import iconPlano from '../assets/planejamento/icon/iconPlano.svg';
 import Details from "../components/Details/Details";
 import FaleConosco from "../components/FaleConosco";
-import { ScrollRestoration } from "react-router-dom";
-/* 
- */
+
 
 const Planejamento = () => {
     return (
