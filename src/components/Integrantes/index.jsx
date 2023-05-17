@@ -21,7 +21,7 @@ export default function Integrantes() {
                             <div
                                 className='w-full group h-full bg-azul-claro rounded-[28px] py-3 px-10 flex flex-col relative'>
                                 <div
-                                    className='group-hover:invisible flex flex-col items-center'>
+                                    className='flex flex-col items-center'>
                                     <div className='w-40 h-40 md:w-28 md:h-28 lg:w-32 lg:h-32'>
                                         <img src={item.imagem} alt={`Foto do ${item.name}`} draggable="false" className='object-cover rounded-[20px]' />
                                     </div>
@@ -34,11 +34,6 @@ export default function Integrantes() {
 
                                 <div className='mt-3 mx-auto'>
                                     <a href={item.linkedin} className=' text-blue-600 text-2xl text-center lg:text-xl'>{item.linkedin !== undefined ? <ImLinkedin /> : ''}</a>
-                                </div>
-
-                                <div
-                                    className='invisible group-hover:visible absolute top-0 left-0 p-6 text-center'>
-                                    <p className='text-[#C1C5D6]'>{item.description}</p>
                                 </div>
                             </div>
                         </motion.div>
