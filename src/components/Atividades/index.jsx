@@ -13,7 +13,7 @@ export default function Atividades() {
         <div id='atividade' className="w-full h-auto pb-1 bg-gradient-to-r from-line-linear-azul to-line-linear-red ">
             <div className="w-full h-full bg-azul-claro text-white flex items-center justify-center 360:py-28 py-40 ">
                 <div className='w-full h-2/3 flex flex-col'>
-                    <h2 data-aos="zoom-in" className='text-center font-white font-russo-one text-[42px] 360:text-[2rem]'>Nossas Atividades</h2>
+                    <h2 data-aos="zoom-in" className='text-center font-white font-russo-one text-[42px] 360:text-[2rem]'>Nossos serviços</h2>
                     <div data-aos="zoom-in" className="w-full flex justify-center items-center gap-16 lg:gap-10 full:gap-[6rem]">
                         <Carousel />
                     </div>

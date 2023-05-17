@@ -2,8 +2,6 @@ import { listIntegrantes } from '../../utils/integrantes'
 import { ImLinkedin } from 'react-icons/im'
 import { motion } from "framer-motion"
 
-// hover:bg-gradient-to-bl hover:from-line-linear-red hover:to-saturation-azul-escuro
-
 export default function Integrantes() {
     return (
         <div id='inte' className="w-full h-full bg-gradient-to-r from-line-linear-azul to-line-linear-red ">
