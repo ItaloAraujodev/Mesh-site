@@ -1,4 +1,4 @@
-import fakeImagem from '../assets/Integrantes/fakeimg.svg';
+
 import bruno from '../assets/Integrantes/bruno.jpg';
 import eduardo from '../assets/Integrantes/eduardo.jpeg';
 import kauan from '../assets/Integrantes/kauan.jpeg';
@@ -90,13 +90,5 @@ export const listIntegrantes = [
         description: "Desenvolvedor Full Stack, responsável pelo desenvolvimento e programação do site",
         funcao: "Developer Full Stack",
         linkedin: "https://www.linkedin.com/in/vin%C3%ADcius-gabriel-dev/"
-    },
-
-    {
-        imagem: fakeImagem,
-        nome: "Você",
-        description: "Junte-se à nossa comunidade e viva experiências únicas",
-        funcao: "Sua função",
-        linkedin: undefined
     },
 ]

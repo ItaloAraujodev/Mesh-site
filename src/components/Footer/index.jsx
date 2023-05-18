@@ -6,8 +6,8 @@ import logo from '../../assets/Nav/logo.svg'
 export default function Footer(){
     return (
 
-        <footer className="w-full h-[30rem] bg-azul-claro relative flex justify-center items-center">
-            <div data-aos="zoom-in" className="w-3/4 h-[50%] sm:w-[90%] 360:h-auto 360:py-12 360:gap-8 sm:gap-12 md:gap-12 flex 360:flex-col sm:flex-row justify-center items-center bg-saturation-preto rounded-[20px]">
+        <footer className="w-full h-[30rem] bg-[#10121D] relative flex justify-center items-center">
+            <div data-aos="zoom-in" className="w-3/4 h-[50%] sm:w-[90%] 360:h-auto 360:py-12 360:gap-8 sm:gap-12 md:gap-12 flex 360:flex-col sm:flex-row justify-center items-center bg-[#181B2D] rounded-[20px]">
                 <div className='flex text-white gap-10 sm:gap-4 md:gap-5'>
                     <a href="https://www.linkedin.com/company/mesh-labs-web3/?viewAsMember=true" target='_blank' rel="noreferrer"><span className='text-3xl 360:text-xl hover:opacity-50'><AiFillLinkedin /></span></a>
                     <a href="https://discord.gg/GBzBcUSq" target='_blank' rel="noreferrer"><span className='text-3xl 360:text-xl hover:opacity-50'><FaDiscord /></span></a>

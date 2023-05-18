@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 export default function Integrantes() {
     return (
         <div id='inte' className="w-full h-full bg-gradient-to-r from-line-linear-azul to-line-linear-red ">
-            <div className="w-full h-full bg-azul-claro text-white flex flex-col items-center py-14">
+            <div className="w-full h-full bg-[#10121D] text-white flex flex-col items-center py-20">
                 <h2 data-aos="fade-down" className='font-russo-one text-[42px] 360:text-[2rem] mb-4 ' >Integrantes</h2>
                 <div className='mt-12 grid grid-cols-3 gap-32 360:grid-cols-1 360:gap-12 md:grid-cols-2 md:gap-20 lg:gap-16 full:gap-48'>
                     {listIntegrantes.map((item, index) => (

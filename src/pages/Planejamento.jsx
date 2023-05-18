@@ -21,7 +21,7 @@ const Planejamento = () => {
                 <h1 className="text-white text-[54px] font-russo-one absolute bottom-6 left-[10%] 360:text-4xl">Planejamento</h1>
             </div>
 
-            <div className="w-full h-auto mt-16 bg-saturation-preto py-40">
+            <div className="w-full h-auto mt-16 bg-[#10121D]o py-40">
                 <div className="w-[80%] grid grid-cols-3 mx-auto gap-y-24 360:grid-cols-1 md:grid-cols-2 md:gap-y-44 xl:gap-y-44 gap-x-7 lg:grid-cols-2">
 
                     <div className="w-full h-[360px] text-white px-4 360:h-auto">
