@@ -9,7 +9,7 @@ const Produto = ({ imgProp, nameProp, linkProp }) => {
     
       <div className='w-full h-full flex flex-col justify-end items-center absolute p-6'>
         <h2 className='text-white font-bold text-[26px] text-center'>{nameProp}</h2>
-        <button type='text' className='w-32 h-[32px] text-base bg-white text-black rounded-[12px] mt-4'><Link to={linkProp}>Saiba mais</Link></button>
+        <button type='text' className='w-32 h-[32px] text-base bg-white text-black rounded-[12px] mt-4 hover:bg-[#D41F31] hover:text-white transition-all ease-in-out delay-100'><Link to={linkProp}>Saiba mais</Link></button>
       </div>
 
     </div>
