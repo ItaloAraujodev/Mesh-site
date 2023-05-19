@@ -10,7 +10,6 @@ import Footer from "./components/Footer";
 import './geral.css'
 import Aos from "aos";
 import { useEffect } from "react";
-import { Trabalhamos } from "./components/trabalhamos";
 
 export default function Root() {
 
@@ -25,7 +24,6 @@ export default function Root() {
     <main className="geral">
       <NavBar />
       <Home />
-      <Trabalhamos />
       <Sobre />
       <Atividades />
       <Juntar />
