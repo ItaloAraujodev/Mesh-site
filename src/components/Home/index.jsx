@@ -21,6 +21,7 @@ export default function HomeComp() {
                     </div>
                 </div>
             </section>
+
             <Trabalhamos />
         </main>
     )

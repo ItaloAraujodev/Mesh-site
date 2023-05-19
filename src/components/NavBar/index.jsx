@@ -1,6 +1,5 @@
 import icon from '../../assets/Nav/logo.svg';
 import brasil from '../../assets/Nav/brasil.svg';
-import american from '../../assets/Nav/american.svg';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { BiMenu } from 'react-icons/bi';
@@ -39,7 +38,6 @@ function navBar() {
                     </div>
                     <div className='flex gap-4 full:gap-6'>
                         <img src={brasil} alt="Bandeira do brasil" draggable="false" />
-                        <img src={american} alt="Bandeira do Estados unidos" draggable="false" className='opacity-50'/>
                     </div>
                 </div>
             </div>
