@@ -1,6 +1,8 @@
 import { ScrollRestoration } from "react-router-dom";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import Details from "../components/Details/Details";
+import FaleConosco from "../components/FaleConosco";
 /* ---------- IMAGENS ------------------ */
 import bannerSolucao from '../assets/planejamento/bannerSolucao.svg';
 import iconNecessidade from '../assets/planejamento/icon/iconNecessidade.svg';
@@ -8,8 +10,7 @@ import iconSolucao from '../assets/planejamento/icon/iconSolucao.svg';
 import iconFuncionalidades from '../assets/planejamento/icon/iconFuncionalidades.svg';
 import iconTestes from '../assets/planejamento/icon/iconTestes.svg';
 import iconImplatacao from '../assets/planejamento/icon/iconImplatacao.svg';
-import Details from "../components/Details/Details";
-import FaleConosco from "../components/FaleConosco";
+
 
 const Solucao = () => {
   return (

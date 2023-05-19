@@ -1,6 +1,8 @@
 import { ScrollRestoration } from "react-router-dom";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import Details from "../components/Details/Details";
+import FaleConosco from "../components/FaleConosco";
 /* ---------- IMAGENS ------------------ */
 import bannerNegocio from '../assets/planejamento/bannerNegocio.svg';
 import iconColeta from '../assets/planejamento/icon/iconColeta.svg';
@@ -8,8 +10,6 @@ import iconDados from '../assets/planejamento/icon/iconDados.svg';
 import iconVisualizacao from '../assets/planejamento/icon/iconVisualizacao.svg';
 import iconModelagem from '../assets/planejamento/icon/iconModelagem.svg';
 import iconAcompanhamento from '../assets/planejamento/icon/iconAcompanhamento.svg';
-import Details from "../components/Details/Details";
-import FaleConosco from "../components/FaleConosco";
 
 const Negocio = () => {
   return (

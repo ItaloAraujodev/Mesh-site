@@ -1,6 +1,8 @@
 import { ScrollRestoration } from "react-router-dom";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import Details from "../components/Details/Details";
+import FaleConosco from "../components/FaleConosco";
 /* ---------- IMAGENS ------------------ */
 import bannerDesign from '../assets/planejamento/bannerDesign.svg';
 import iconAnalise from '../assets/planejamento/icon/iconAnalise.svg';
@@ -8,8 +10,6 @@ import iconTendencia from '../assets/planejamento/icon/iconTendencia.svg';
 import iconMapeamento from '../assets/planejamento/icon/iconMapeamento.svg';
 import iconDesign from '../assets/planejamento/icon/iconDesign.svg';
 import iconPreparacao from '../assets/planejamento/icon/iconPreparacao.svg';
-import Details from "../components/Details/Details";
-import FaleConosco from "../components/FaleConosco";
 
 const Desing = () => {
   return (

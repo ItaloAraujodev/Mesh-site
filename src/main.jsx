@@ -13,48 +13,58 @@ import Desing from './pages/Design';
 import Desenvolvimento from './pages/Desenvolvimento';
 import Solucao from './pages/Solucao';
 import Negocio from './pages/Negocio';
+import HomePage from './pages/home';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
     errorElement: <ErrorPage />,
+    children: [
+
+      {
+        path: "/",
+        element: <HomePage />,
+      },
+
+      {
+        path: "planejamento",
+        element: <Planejamento />,
+      },
+
+      {
+        path: "criacao",
+        element: <Criacao />,
+      },
+
+      {
+        path: "design",
+        element: <Desing />,
+      },
+
+      {
+        path: "desenvolvimento",
+        element: <Desenvolvimento />,
+      },
+
+      {
+        path: "solucao",
+        element: <Solucao />,
+      },
+
+      {
+        path: "inteligencia-negocio",
+        element: <Negocio />,
+      },
+    ],
   },
 
-  {
-    path: "planejamento",
-    element: <Planejamento />,
-  },
 
-  {
-    path: "criacao",
-    element: <Criacao />,
-  },
-
-  {
-    path: "design",
-    element: <Desing />,
-  },
-
-  {
-    path: "desenvolvimento",
-    element: <Desenvolvimento />,
-  },
-
-  {
-    path: "solucao",
-    element: <Solucao />,
-  },
-
-  {
-    path: "inteligencia-negocio",
-    element: <Negocio />,
-  },
 ]);
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-      <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )
