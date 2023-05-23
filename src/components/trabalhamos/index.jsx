@@ -1,11 +1,11 @@
 import Produto from "./Produto";
 /* ---------- IMAGENS ------------------ */
-import planejamento from '../../assets/Trabalhamos/planejamento.svg';
-import cricao from '../../assets/Trabalhamos/criacao.svg';
-import desenvolvimento from '../../assets/Trabalhamos/desenvolvimento.svg';
-import desing from '../../assets/Trabalhamos/desing.svg';
-import intnegocios from '../../assets/Trabalhamos/negocio.svg';
-import solucao from '../../assets/Trabalhamos/solucao.svg';
+import planejamento from '../../assets/Trabalhamos/planejamento.avif';
+import cricao from '../../assets/Trabalhamos/criacao.avif';
+import desenvolvimento from '../../assets/Trabalhamos/desenvolvimento.avif';
+import desing from '../../assets/Trabalhamos/design.avif';
+import intnegocios from '../../assets/Trabalhamos/negocios.avif';
+import solucao from '../../assets/Trabalhamos/solucao.avif';
 
 
 export const Trabalhamos = () => {
