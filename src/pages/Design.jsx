@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import Details from "../components/Details/Details";
 import FaleConosco from "../components/FaleConosco";
 /* ---------- IMAGENS ------------------ */
-import bannerDesign from '../assets/planejamento/bannerDesign.svg';
+import bannerDesign from '../assets/planejamento/bannerDesign.avif';
 import iconAnalise from '../assets/planejamento/icon/iconAnalise.svg';
 import iconTendencia from '../assets/planejamento/icon/iconTendencia.svg';
 import iconMapeamento from '../assets/planejamento/icon/iconMapeamento.svg';

@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import Details from "../components/Details/Details";
 import FaleConosco from "../components/FaleConosco";
 /* ---------- IMAGENS ------------------ */
-import bannerSolucao from '../assets/planejamento/bannerSolucao.svg';
+import bannerSolucao from '../assets/planejamento/bannerSolucao.avif';
 import iconNecessidade from '../assets/planejamento/icon/iconNecessidade.svg';
 import iconSolucao from '../assets/planejamento/icon/iconSolucao.svg';
 import iconFuncionalidades from '../assets/planejamento/icon/iconFuncionalidades.svg';

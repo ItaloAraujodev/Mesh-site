@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import Details from "../components/Details/Details";
 import FaleConosco from "../components/FaleConosco";
 /* ---------- IMAGENS ------------------ */
-import bannerNegocio from '../assets/planejamento/bannerNegocio.svg';
+import bannerNegocio from '../assets/planejamento/bannerNegocio.avif';
 import iconColeta from '../assets/planejamento/icon/iconColeta.svg';
 import iconDados from '../assets/planejamento/icon/iconDados.svg';
 import iconVisualizacao from '../assets/planejamento/icon/iconVisualizacao.svg';
