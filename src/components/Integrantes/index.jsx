@@ -31,7 +31,7 @@ export default function Integrantes() {
                                 </div>
 
                                 <div className='mt-3 mx-auto'>
-                                    <a href={item.linkedin} className=' text-blue-600 text-2xl text-center lg:text-xl'>{item.linkedin !== undefined ? <ImLinkedin /> : ''}</a>
+                                    <a  href={item.linkedin} rel='preload' className=' text-blue-600 text-2xl text-center lg:text-xl'>{item.linkedin !== undefined ? <ImLinkedin /> : ''}</a>
                                 </div>
                             </div>
                         </motion.div>

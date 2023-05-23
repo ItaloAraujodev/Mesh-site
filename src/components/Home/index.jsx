@@ -1,4 +1,4 @@
-import espaco from '../../assets/Home/espaco.svg';
+import espaco from '../../assets/Home/espaco.avif';
 import { Trabalhamos } from '../trabalhamos';
 
 export default function HomeComp() {
