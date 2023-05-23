@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Root from './Root';
 import {
@@ -65,8 +65,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Suspense fallback={ <p>Carregando...</p> }>
+
       <RouterProvider router={router} />
-    </Suspense>
+
   </React.StrictMode>,
 )
