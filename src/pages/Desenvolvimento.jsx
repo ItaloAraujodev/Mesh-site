@@ -1,8 +1,5 @@
 import { ScrollRestoration } from "react-router-dom";
-import NavBar from "../components/NavBar";
-import Footer from "../components/Footer";
 import Details from "../components/Details/Details";
-import FaleConosco from "../components/FaleConosco";
 /* ---------- IMAGENS ------------------ */
 import bannerDesenvolvimento from '../assets/planejamento/bannerDesenvolvimento.avif';
 import iconRequisito from '../assets/planejamento/icon/iconRequisito.svg';
@@ -15,7 +12,6 @@ import iconImplatacao from '../assets/planejamento/icon/iconImplatacao.svg';
 const Desenvolvimento = () => {
   return (
     <>
-      <NavBar />
       <div className="w-full h-[257px] relative top-16 pb-[2px] bg-gradient-to-r from-line-linear-azul to-line-linear-red">
         <img src={bannerDesenvolvimento} alt="Desenvolvimento" draggable="false" className="w-full h-full object-cover object-center" />
         <h1 className="text-white text-[54px] font-russo-one absolute bottom-6 left-[10%] 360:text-4xl">Desenvolvimento</h1>
@@ -36,8 +32,6 @@ const Desenvolvimento = () => {
           <Details imgProp={iconImplatacao} nameProp="Implantação e lançamento" description="A etapa de implantação e lançamento é o momento em que o produto desenvolvido é disponibilizado para uso pelos usuários finais. Nessa fase, são realizadas todas as atividades necessárias para garantir uma implantação bem-sucedida do sistema em um ambiente de produção. Isso inclui a configuração adequada dos servidores, a integração de todos os componentes e a verificação da compatibilidade com o ambiente operacional" />
         </div>
       </div>
-      <FaleConosco />
-      <Footer />
       <ScrollRestoration />
     </>
   )

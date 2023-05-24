@@ -1,8 +1,5 @@
 import { ScrollRestoration } from "react-router-dom";
-import NavBar from "../components/NavBar";
-import Footer from "../components/Footer";
 import Details from "../components/Details/Details";
-import FaleConosco from "../components/FaleConosco";
 /* ---------- IMAGENS ------------------ */
 import bannerDesign from '../assets/planejamento/bannerDesign.avif';
 import iconAnalise from '../assets/planejamento/icon/iconAnalise.svg';
@@ -14,7 +11,6 @@ import iconPreparacao from '../assets/planejamento/icon/iconPreparacao.svg';
 const Desing = () => {
   return (
     <>
-      <NavBar />
       <div className="w-full h-[257px] relative top-16 pb-[2px] bg-gradient-to-r from-line-linear-azul to-line-linear-red">
         <img src={bannerDesign} alt="Design" draggable="false" className="w-full h-full object-cover object-center" />
         <h1 className="text-white text-[54px] font-russo-one absolute bottom-6 left-[10%] 360:text-4xl">Design</h1>
@@ -35,8 +31,6 @@ const Desing = () => {
           <Details imgProp={iconPreparacao} nameProp="Preparação de arquivos finais" description="Após a aprovação dos wireframes, a preparação dos arquivos finais é realizada. Nessa etapa, os elementos gráficos são organizados de acordo com o design finalizado, e os arquivos são exportados nos formatos corretos. Além disso, é criada uma documentação clara para auxiliar a equipe de desenvolvimento na implementação do design" />
         </div>
       </div>
-      <FaleConosco />
-      <Footer />
       <ScrollRestoration />
     </>
   )

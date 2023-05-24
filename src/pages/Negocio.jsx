@@ -1,8 +1,5 @@
 import { ScrollRestoration } from "react-router-dom";
-import NavBar from "../components/NavBar";
-import Footer from "../components/Footer";
 import Details from "../components/Details/Details";
-import FaleConosco from "../components/FaleConosco";
 /* ---------- IMAGENS ------------------ */
 import bannerNegocio from '../assets/planejamento/bannerNegocio.avif';
 import iconColeta from '../assets/planejamento/icon/iconColeta.svg';
@@ -15,7 +12,6 @@ const Negocio = () => {
   return (
 
       <>
-        <NavBar />
         <div className="w-full h-[257px] relative top-16 pb-[2px] bg-gradient-to-r from-line-linear-azul to-line-linear-red">
           <img src={bannerNegocio} alt="Inteligência de negócios" draggable="false" className="w-full h-full object-cover object-center" />
           <h1 className="text-white text-[54px] font-russo-one absolute bottom-6 left-[10%] 360:text-4xl">Inteligência de negócios</h1>
@@ -37,8 +33,6 @@ const Negocio = () => {
           
           </div>
         </div>
-        <FaleConosco />
-        <Footer />
         <ScrollRestoration />
       </>
   )

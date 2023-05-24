@@ -1,8 +1,7 @@
 import { ScrollRestoration } from "react-router-dom";
-import NavBar from "../components/NavBar";
-import Footer from "../components/Footer";
+
 import Details from "../components/Details/Details";
-import FaleConosco from "../components/FaleConosco";
+
 /* ---------- IMAGENS ------------------ */
 import bannerCriacao from '../assets/planejamento/bannerCriacao.avif';
 import iconBriefing from '../assets/planejamento/icon/iconBriefing.svg';
@@ -14,7 +13,6 @@ import iconPlano from '../assets/planejamento/icon/iconPlano.svg';
 const Criacao = () => {
   return (
     <>
-      <NavBar />
       <div className="w-full h-[257px] relative top-16 pb-[2px] bg-gradient-to-r from-line-linear-azul to-line-linear-red">
         <img src={bannerCriacao} alt="Criação" draggable="false" className="w-full h-full object-cover object-center" />
         <h1 className="text-white text-[54px] font-russo-one absolute bottom-6 left-[10%] 360:text-4xl">Criação</h1>
@@ -36,8 +34,6 @@ const Criacao = () => {
           <Details imgProp={iconPlano} nameProp="Apresentação e Feedback" description="É nesse momento que apresentamos o trabalho realizado, mostrando como as ideias foram materializadas e transformadas em soluções concretas. Com base no feedback recebido, realizamos iterações e ajustes no design, buscando atender às expectativas e objetivos definidos. Essa colaboração e troca de informações entre a equipe criativa e as partes interessadas ajudam a refinar e aperfeiçoar a criação" />
         </div>
       </div>
-      <FaleConosco />
-      <Footer />
       <ScrollRestoration />
     </>
   )

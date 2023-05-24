@@ -1,8 +1,8 @@
 import { ScrollRestoration } from "react-router-dom";
-import NavBar from "../components/NavBar";
-import Footer from "../components/Footer";
+
+
 import Details from "../components/Details/Details";
-import FaleConosco from "../components/FaleConosco";
+
 /* ---------- IMAGENS ------------------ */
 import bannerSolucao from '../assets/planejamento/bannerSolucao.avif';
 import iconNecessidade from '../assets/planejamento/icon/iconNecessidade.svg';
@@ -15,7 +15,6 @@ import iconImplatacao from '../assets/planejamento/icon/iconImplatacao.svg';
 const Solucao = () => {
   return (
     <>
-      <NavBar />
       <div className="w-full h-[257px] relative top-16 pb-[2px] bg-gradient-to-r from-line-linear-azul to-line-linear-red">
         <img src={bannerSolucao} alt="Solucao" draggable="false" className="w-full h-full object-cover object-center" />
         <h1 className="text-white text-[54px] font-russo-one absolute bottom-6 left-[10%] 360:text-4xl">Solução</h1>
@@ -36,8 +35,6 @@ const Solucao = () => {
           <Details imgProp={iconImplatacao} nameProp="Documentação e entrega" description="Após a conclusão do desenvolvimento da solução, é fundamental realizar a documentação adequada para garantir o uso correto e a manutenção contínua da solução desenvolvida. A documentação engloba diversos recursos, como manuais, guias de usuário, documentação técnica e qualquer outra informação relevante que possa auxiliar tanto os usuários finais quanto a equipe responsável pela manutenção do sistema" />
         </div>
       </div>
-      <FaleConosco />
-      <Footer />
       <ScrollRestoration />
     </>
   )

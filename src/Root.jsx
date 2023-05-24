@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import { Outlet } from "react-router-dom";
-import { Suspense } from "react";
 /* ------------ Componentes ----------------- */
 import NavBar from "./components/NavBar";
 import FaleConosco from "./components/FaleConosco";
@@ -20,12 +19,10 @@ export default function Root() {
 
   return (
     <main className="geral">
-      <Suspense fallback={<p>Carregando...</p>}>
-        <NavBar />
-        <Outlet />
-        <FaleConosco />
-        <Footer />
-      </Suspense>
+      <NavBar />
+      <Outlet />
+      <FaleConosco />
+      <Footer />
     </main>
   )
 }
