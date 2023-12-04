@@ -20,7 +20,7 @@ export default function Sobre() {
                         <div data-aos="fade-left" className="w-[50%] 360:w-[90%] sm:p-12 md:w-full md:p-12 360:py-6 text-justify flex flex-col gap-16 text-base md:text-xl lg:gap-8 xl:gap-8 1440:text-xl 2xl:text-xl full:text-xl">
                             <div className="flex items-center">
                                 <span className="text-saturation-green">▸</span>
-                                <p className="ml-5">Aqui na Mesh Labs conctamos ideias e tecnologia para criar soluções inovadoras e escaláveis. Somos especialistas em desenvolvimento de produtos digitais que impulsionam o seu negócio para o sucesso</p>
+                                <p className="ml-5">Aqui na Mesh Labs conectamos ideias e tecnologia para criar soluções inovadoras e escaláveis. Somos especialistas em desenvolvimento de produtos digitais que impulsionam o seu negócio para o sucesso</p>
                             </div>
 
                             <div className="flex items-center">
