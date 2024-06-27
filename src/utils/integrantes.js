@@ -1,8 +1,6 @@
 import bruno from '../assets/Integrantes/bruno.jpg'
 import kauan from '../assets/Integrantes/kauan.jpeg'
 import italo from '../assets/Integrantes/italo.jpg'
-import gabriel from '../assets/Integrantes/gabriel.jpg'
-import tiago from '../assets/Integrantes/tiago.jpg'
 
 export const listIntegrantes = [
   {
@@ -30,23 +28,5 @@ export const listIntegrantes = [
       'Desenvolvedor Full Stack, responsável pelo desenvolvimento e programação do site',
     funcao: 'Developer Full Stack',
     linkedin: 'https://www.linkedin.com/in/italoaraujodev/',
-  },
-
-  {
-    imagem: gabriel,
-    nome: 'Gabriel Almeida',
-    description:
-      'Desenvolvedor Full Stack, responsável pelo desenvolvimento e programação do site',
-    funcao: 'Developer Full Stack',
-    linkedin: 'https://www.linkedin.com/in/vin%C3%ADcius-gabriel-dev/',
-  },
-
-  {
-    imagem: tiago,
-    nome: 'Tiago Braga',
-    description:
-      'Desenvolvedor Full Stack, responsável pelo desenvolvimento e programação do site',
-    funcao: 'Developer Full Stack',
-    linkedin: 'https://www.linkedin.com/in/ztiagok/',
   },
 ]
