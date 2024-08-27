@@ -1,7 +1,7 @@
 import bruno from '../assets/Integrantes/bruno.jpg'
 import kauan from '../assets/Integrantes/kauan.jpeg'
 import italo from '../assets/Integrantes/italo.jpg'
-import anderson from '../assets/Integrantes/anderson.jpg'
+import wandelson from '../assets/Integrantes/anderson.jpg'
 
 export const listIntegrantes = [
   {
@@ -32,11 +32,12 @@ export const listIntegrantes = [
   },
 
   {
-    imagem: anderson,
-    nome: 'Anderson',
+    imagem: wandelson,
+    nome: 'Wandelson Custodio',
     description:
       '',
     funcao: 'Sales Manager',
+    linkedin: "https://www.linkedin.com/in/wandelson-custodio-914203209/?originalSubdomain=ao"
 
   },
 
