@@ -1,6 +1,7 @@
 import bruno from '../assets/Integrantes/bruno.jpg'
 import kauan from '../assets/Integrantes/kauan.jpeg'
 import italo from '../assets/Integrantes/italo.jpg'
+import anderson from '../assets/Integrantes/anderson.jpg'
 
 export const listIntegrantes = [
   {
@@ -13,6 +14,15 @@ export const listIntegrantes = [
   },
 
   {
+    imagem: italo,
+    nome: 'Ítalo Araújo',
+    description:
+      'Desenvolvedor Full Stack, responsável pelo desenvolvimento e programação do site',
+    funcao: 'Developer Full Stack',
+    linkedin: 'https://www.linkedin.com/in/italoaraujodev/',
+  },
+
+  {
     imagem: kauan,
     nome: 'Kauan Carvalho',
     description:
@@ -22,11 +32,12 @@ export const listIntegrantes = [
   },
 
   {
-    imagem: italo,
-    nome: 'Ítalo Araújo',
+    imagem: anderson,
+    nome: 'Anderson',
     description:
-      'Desenvolvedor Full Stack, responsável pelo desenvolvimento e programação do site',
-    funcao: 'Developer Full Stack',
-    linkedin: 'https://www.linkedin.com/in/italoaraujodev/',
+      '',
+    funcao: 'Sales Manager',
+
   },
+
 ]
