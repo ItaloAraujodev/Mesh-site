@@ -55,7 +55,7 @@ function NavBar() {
                 </div>
             </div>
             {/* NavBar Mobile */}
-            <div className='w-full h-16 bg-[#10121D] fixed md:hidden lg:hidden xl:hidden 2xl:hidden 1440:hidden full:hidden z-50'>
+            <div className={`w-full h-16 fixed md:hidden lg:hidden xl:hidden 2xl:hidden 1440:hidden full:hidden z-50 ${isScrolled ? '!bg-[#0E192A]' : 'bg-transparent'}`}>
                 <motion.div
                     initial={false}
                     animate={toogle ? "open" : "closed"}
@@ -76,7 +76,7 @@ function NavBar() {
                         </motion.button>
                     </div>
                     <motion.ul
-                        className="w-full flex flex-col pt-6 pb-10 px-4 gap-4 bg-[#10121D] text-white absolute top-14"
+                        className="w-full flex flex-col pt-6 pb-10 px-4 gap-4 bg-[#0E192A] text-white absolute top-14"
                         variants={{
                             open: {
                                 clipPath: "inset(0% 0% 0% 0% round 5px)",
