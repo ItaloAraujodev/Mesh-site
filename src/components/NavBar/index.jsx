@@ -25,7 +25,7 @@ function NavBar() {
         };
 
         window.addEventListener("scroll", handleScroll);
-        console.log(isScrolled)
+
         return () => window.removeEventListener("scroll", handleScroll);
     }, [window.scrollY]);
 
@@ -41,7 +41,7 @@ function NavBar() {
                         <h1 className='text-white text-2xl font-russo-one'>Mesh Labs</h1>
                     </div>
                     <ul className='text-white font-medium'>
-                        <li><a href="#process">Nosso Processo</a></li>
+                        <li className='relative inline-block'><a href="#process" className='pb-1 border-b-2 border-transparent hover:border-blue-500 transition-all duration-300'>Nosso Processo</a></li>
                     </ul>
                 </div>
                 <div className='flex items-center mr-8 gap-8'>
@@ -62,8 +62,9 @@ function NavBar() {
                     className={`w-full h-16 flex justify-between items-center relative transition duration-200`}
                 >
                     <div className='w-[80%] h-full mx-auto justify-between items-center flex'>
-                        <div>
+                        <div className='flex gap-4 items-center'>
                             <a href="/"><img src={icon} alt="Logo da Mesh" draggable="false" /></a>
+                            <h1 className='text-white text-xl font-russo-one'>Mesh Labs</h1>
                         </div>
 
                         <motion.button
