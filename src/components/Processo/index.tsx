@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { RiSearchEyeLine } from "react-icons/ri";
-import Planejamento from "./selections/planejamento";
+import Planejamento from "./selections/Planejamento";
 import { Entrega } from "./selections/Entrega";
 import { Testes } from "./selections/Testes";
 import { Producao } from "./selections/Producao";
