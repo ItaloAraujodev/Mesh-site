@@ -5,7 +5,7 @@ import { Entrega } from "./selections/Entrega";
 import { Testes } from "./selections/Testes";
 import { Producao } from "./selections/Producao";
 import { Design } from "./selections/Design";
-import { DropMenu } from "../Common/dropmenu";
+import { DropMenu } from "../Common/Dropmenu";
 
 export default function Processo() {
   const [selected, setSelected] = useState("Planejamento");
