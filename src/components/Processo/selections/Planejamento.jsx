@@ -1,10 +1,9 @@
-import React from 'react';
 
 import planejamtno1 from '../../../assets/selections/Planejamento/planning.png';
 import planejamtno2 from '../../../assets/selections/Planejamento/planning2.png';
 import planejamtno3 from '../../../assets/selections/Planejamento/planning3.png';
 
-export const Planejamento = () => {
+export default function Planejamento() {
   return (
     <div className="w-[50%] 360:w-full lg:w-[95%] xl:w-[80%] m-auto h-full">
       <div className="gap-6 flex 2xl:h-[90%] justify-center ">
