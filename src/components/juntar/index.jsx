@@ -7,10 +7,10 @@ export default function Juntar() {
             <div className="w-full h-full bg-gradient-to-r from-azul-claro via-saturation-azul-escuro to-azul-claro text-white flex justify-center py-24">
                 <div className="flex flex-col justify-center items-center">
                     <div data-aos="fade-down" className="w-[90%] flex flex-col items-center mb-12">
-                        <h2 className='font-russo-one text-center leading-2 text-[42px] 360:text-[2rem] 360:mb-[3.5rem]'>Porque você deve ser juntar a nós</h2>
+                        <h2 className='font-russo-one text-center leading-2 lg:text-[48px] 360:text-[2rem] 360:mb-[3.5rem]'>Porque você deve ser juntar a nós</h2>
                     </div>
 
-                    <div className="w-full flex 360:flex-col justify-center items-center gap-8 md:gap-5 full:gap-12">
+                    <div className="w-full flex 360:flex-col md:flex-row justify-center items-center gap-8 md:gap-5 full:gap-12">
                         {imgsJuntar.map((item, index) => (
                             <motion.div
                                 key={index} 

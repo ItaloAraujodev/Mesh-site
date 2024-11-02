@@ -1,12 +1,14 @@
 import icon from '../../assets/Nav/logo.svg';
 import brasil from '../../assets/Nav/brasil.svg';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { BiMenu } from 'react-icons/bi';
 import { AiOutlineClose } from 'react-icons/ai';
+import { MdArrowOutward } from "react-icons/md";
 
-function navBar() {
-    // eslint-disable-next-line react-hooks/rules-of-hooks
+function NavBar() {
+    const [isScrolled, setIsScrolled] = useState(false);
+    const [toogle, setToogle] = useState(false);
 
     const itemVariants = {
         open: {
@@ -17,36 +19,47 @@ function navBar() {
         closed: { opacity: 0, y: 20, transition: { duration: 0.2 } }
     };
 
-    // eslint-disable-next-line react-hooks/rules-of-hooks
-    const [toogle, setToogle] = useState(false)
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolled(window.scrollY > 50);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        console.log(isScrolled)
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, [window.scrollY]);
 
     return (
-        <nav className='w-full h-auto relative bg-navBar z-10'>
-            <div className='w-full h-16 fixed bg-navBar flex justify-center 360:hidden sm:hidden'>
-                <div className='w-10/12 flex items-center justify-between'>
-                    <div>
-                        <a href="/"><img src={icon} alt="Logo da Mesh" draggable="false" /></a>
+        <nav className={`w-full h-auto relative z-10`}
+
+        >
+            {/* NavBar Desktop */}
+            <div className={`h-24 m-auto flex items-center gap-10 justify-between 360:hidden md:flex fixed w-full ${isScrolled ? '!bg-[#0E192A]' : 'bg-transparent'}`}>
+                <div className='flex items-center gap-10 justify-between'>
+                    <div className='h-full flex items-center'>
+                        <img src={icon} alt="Logo da Mesh" draggable="false" className='w-16 h-8' />
+                        <h1 className='text-white text-2xl font-russo-one'>Mesh Labs</h1>
                     </div>
-                    <div>
-                        <ul className='text-white text-base md:text-sm full:text-lg flex gap-8 lg:gap-16 xl:gap-14 1440:gap-16 2xl:gap-[5rem] full:gap-[6rem] '>
-                            <li><a href="/#home" className='hover:opacity-80'>Home</a></li>
-                            <li><a href="/#atividade" className='hover:opacity-80'>Serviços</a></li>
-                            <li><a href="/#sobre" className='hover:opacity-80'>Quem somos</a></li>
-                            <li><a href="/#fale" className='hover:opacity-80'>Fale Conosco</a></li>
-                            <li><a href="/#inte" className='hover:opacity-80'>Equipe</a></li>
-                        </ul>
+                    <ul className='text-white font-medium'>
+                        <li><a href="#process">Nosso Processo</a></li>
+                    </ul>
+                </div>
+                <div className='flex items-center mr-8 gap-8'>
+                    <div className='bg-[#283563]/30 px-8 flex items-center rounded-md h-12'>
+                        <img src={brasil} alt="Bandeira do Brasil" draggable="false" className='w-8 h-8' />
                     </div>
-                    <div className='flex gap-4 full:gap-6'>
-                        <img src={brasil} alt="Bandeira do brasil" draggable="false" />
+                    <div className='w-64 h-14 rounded-xl text-white flex items-center justify-center bg-[#283563] gap-4 transition-all hover:bg-[#283563]/60'>
+                        <a href="https://1y7idwqhetx.typeform.com/to/Y2RL4h8P" target="_blank" className='font-bold text-base cursor-pointer' rel="noreferrer">Fale com um especialista</a>
+                        <MdArrowOutward />
                     </div>
                 </div>
             </div>
-
-            <div className='w-[100%] h-16 bg-navBar fixed md:hidden lg:hidden xl:hidden 2xl:hidden 1440:hidden full:hidden z-30'>
+            {/* NavBar Mobile */}
+            <div className='w-full h-16 bg-[#10121D] fixed md:hidden lg:hidden xl:hidden 2xl:hidden 1440:hidden full:hidden z-50'>
                 <motion.div
                     initial={false}
                     animate={toogle ? "open" : "closed"}
-                    className={`w-[100%] h-[64px] flex justify-between items-center relative`}
+                    className={`w-full h-16 flex justify-between items-center relative transition duration-200`}
                 >
                     <div className='w-[80%] h-full mx-auto justify-between items-center flex'>
                         <div>
@@ -62,10 +75,10 @@ function navBar() {
                         </motion.button>
                     </div>
                     <motion.ul
-                        className="w-full flex flex-col p-4 gap-4 bg-navBar text-white absolute top-14"
+                        className="w-full flex flex-col pt-6 pb-10 px-4 gap-4 bg-[#10121D] text-white absolute top-14"
                         variants={{
                             open: {
-                                clipPath: "inset(0% 0% 0% 0% round 10px)",
+                                clipPath: "inset(0% 0% 0% 0% round 5px)",
                                 transition: {
                                     type: "spring",
                                     bounce: 0,
@@ -85,16 +98,28 @@ function navBar() {
                         }}
                         style={{ pointerEvents: toogle ? "auto" : "none" }}
                     >
-                        <motion.li variants={itemVariants}><a href="/#home" className='hover:opacity-80'>Home</a></motion.li>
-                        <motion.li variants={itemVariants}><a href="/#atividade" className='hover:opacity-80'>Serviços</a></motion.li>
-                        <motion.li variants={itemVariants}><a href="/#sobre" className='hover:opacity-80'>Quem somos</a></motion.li>
-                        <motion.li variants={itemVariants}><a href="/#fale" className='hover:opacity-80'>Fale Conosco</a></motion.li>
-                        <motion.li variants={itemVariants}><a href="/#inte" className='hover:opacity-80'>Equipe</a></motion.li>
+                        <motion.li variants={itemVariants} className='text-center mb-2'>
+                            <a href="/#process" className='hover:opacity-80 relative group text-center text-lg font-raleway'>
+                                Nosso processo
+                                <span className='absolute left-0 right-0 bottom-[-5px] h-[2px] bg-blue-500 scale-0 group-hover:scale-100 transition-transform duration-200'></span>
+                            </a>
+                        </motion.li>
+                        <motion.li variants={itemVariants}>
+                            <div className='flex flex-col justify-center items-center gap-6'>
+                                <div className='bg-[#283563]/30 px-8 flex items-center rounded-md h-12'>
+                                    <img src={brasil} alt="Bandeira do Brasil" draggable="false" className='w-8 h-8' />
+                                </div>
+                                <div className='w-64 h-14 rounded-xl text-white flex items-center justify-center cursor-pointer bg-[#283563] gap-4'>
+                                    <a href="#process" className='font-bold text-base'>Fale com um especialista</a>
+                                    <MdArrowOutward />
+                                </div>
+                            </div>
+                        </motion.li>
                     </motion.ul>
                 </motion.div>
             </div>
         </nav>
-    )
+    );
 }
 
-export default navBar
+export default NavBar;

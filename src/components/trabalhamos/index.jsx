@@ -1,25 +1,18 @@
 import Produto from "./Produto";
-/* ---------- IMAGENS ------------------ */
-import planejamento from '../../assets/Trabalhamos/planejamento.avif';
-import cricao from '../../assets/Trabalhamos/criacao.avif';
-import desenvolvimento from '../../assets/Trabalhamos/desenvolvimento.avif';
-import desing from '../../assets/Trabalhamos/design.avif';
-import intnegocios from '../../assets/Trabalhamos/negocios.avif';
-import solucao from '../../assets/Trabalhamos/solucao.avif';
 
 
 export const Trabalhamos = () => {
     return (
 
         <section className="flex flex-col justify-center items-center py-24">
-            <h1 className="text-white text-[42px] text-center font-russo-one">Produtos</h1>
-            <div className="grid grid-cols-3 gap-x-[85px] gap-y-10 mt-10 360:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
-                <Produto imgProp={planejamento} nameProp="Planejamento" linkProp={`planejamento`} />
-                <Produto imgProp={cricao} nameProp="Criação" linkProp={`criacao`} />
-                <Produto imgProp={desing} nameProp="Design" linkProp={`design`} />
-                <Produto imgProp={desenvolvimento} nameProp="Desenvolvimento" linkProp={`desenvolvimento`} />
-                <Produto imgProp={solucao} nameProp="Solução" linkProp={`solucao`} />
-                <Produto imgProp={intnegocios} nameProp="Inteligência de negócios" linkProp={`inteligencia-negocio`} />
+            
+            <div className="flex flex-wrap gap-6 justify-center mt-6">
+                <Produto  nameProp="A Base do Sucesso do Projeto" descriptionProp="O planejamento define objetivos, estratégias e recursos, antecipando desafios e otimizando esforços. Ele alinha o projeto aos objetivos estratégicos, reduzindo riscos e garantindo execução eficiente." linkProp={`planejamento`} />
+                <Produto nameProp="Transformando Ideias em Realidade" descriptionProp="A seção de Criação é onde as ideias ganham vida. A equipe criativa desenvolve soluções inovadoras, transformando conceitos do planejamento em designs, layouts e conteúdos que agregam valor ao projeto." linkProp={`criacao`} />
+                <Produto  nameProp="Transformando ideias em uma experiência visual impactante" descriptionProp="A etapa de design é crucial para criar uma experiência visual envolvente e funcional. Nela, as ideias se transformam em layouts, cores, tipografia e elementos interativos, influenciando tanto a estética quanto a usabilidade e a experiência do usuário." linkProp={`design`} />
+                <Produto  nameProp="Desenvolvimento: Um dos pilares para o sucesso" descriptionProp="Nesta fase, as ideias se transformam em soluções funcionais de alta qualidade, com a equipe de desenvolvimento criando uma experiência interativa. Utilizando tecnologias avançadas e metodologias ágeis, garantimos um produto final robusto e eficiente." linkProp={`desenvolvimento`} />
+                <Produto  nameProp="A importância da etapa de solução em um projeto" descriptionProp="Neste processo, propõem-se soluções para atender às necessidades dos usuários e clientes, envolvendo análise de requisitos, design, prototipagem, desenvolvimento iterativo e entrega final. Essa abordagem garante soluções eficientes e alinhadas às expectativas de todos os envolvidos." linkProp={`solucao`} />
+                <Produto nameProp="Decisões estratégicas baseadas em dados precisos e insights" descriptionProp="A etapa de Inteligência de Negócios coleta e analisa dados para apoiar decisões estratégicas, extraindo insights valiosos e proporcionando uma compreensão aprofundada do desempenho e do ambiente de negócios." linkProp={`inteligencia-negocio`} />
             </div>
         </section>
 

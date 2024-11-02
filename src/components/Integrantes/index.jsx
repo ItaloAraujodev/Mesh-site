@@ -1,43 +1,37 @@
-import { listIntegrantes } from '../../utils/integrantes'
-import { ImLinkedin } from 'react-icons/im'
-import { motion } from "framer-motion"
+import { listIntegrantes } from '../../utils/integrantes';
+import { ImLinkedin } from 'react-icons/im';
+import { Link } from 'react-router-dom';
 
 export default function Integrantes() {
+
+
     return (
-        <div id='inte' className="w-full h-full bg-gradient-to-r from-line-linear-azul to-line-linear-red ">
+        <div id='inte' className="w-full h-full bg-gradient-to-r from-line-linear-azul to-line-linear-red">
             <div className="w-full h-full bg-[#10121D] text-white flex flex-col items-center py-20">
-                <h2 data-aos="fade-down" className='font-russo-one text-[42px] 360:text-[2rem] mb-4 ' >Integrantes</h2>
-                <div className='mt-12 grid grid-cols-3 gap-32 360:grid-cols-1 360:gap-12 md:grid-cols-2 md:gap-20 lg:gap-16 full:gap-48'>
+                <h2 data-aos="fade-down" className='font-russo-one text-[42px] lg:text-[48px] 360:text-[2rem] mb-4'>Nossa equipe</h2>
+                <div className='my-16 flex gap-6 flex-wrap justify-center px-4 md:px-0'>
                     {listIntegrantes.map((item, index) => (
-                        <motion.div
-                            whileHover={{ background: "linear-gradient(to bottom left, #EC2158, #EC2158, 80%, #498CF1)" }}
-                            transition={
-                                { ease: "linear", duration: 0.3}}
-                            data-aos="zoom-in"
-                            key={index}
-                            className='w-[280px] h-72 md:w-[220px] md:h-[15rem] flex items-center rounded-[30px] lg:w-[230px] lg:h-64 py-[2px]  px-[2px] bg-gradient-to-bl from-saturation-green to-saturation-azul-claro ' >
-                            <div
-                                className='w-full group h-full bg-azul-claro rounded-[28px] py-3 px-10 flex flex-col relative'>
-                                <div
-                                    className='flex flex-col items-center'>
-                                    <div className='w-40 h-40 md:w-28 md:h-28 lg:w-32 lg:h-32'>
-                                        <img src={item.imagem} alt={`Foto do ${item.name}`} draggable="false" className='object-cover rounded-[20px]' />
-                                    </div>
+                        <Link className={`bg-gradient-to-bl from-saturation-green to-saturation-azul-claro p-0.5 rounded-sm transform transition-transform duration-300 hover:-translate-y-3`} key={index}
 
-                                    <div className='text-center mt-2'>
-                                        <h2 className='text-saturation-green text-lg lg:text-base md:text-base' >{item.nome}</h2>
-                                        <p className='lg:text-sm full:text-lg md:text-sm'>{item.funcao}</p>
-                                    </div>
+                        >
+                            <div className='w-[280px] h-[400px] sm:w-[300px] sm:h-[420px] rounded-sm bg-azul-claro'>
+                                <div>
+                                    <img src={item.imagem} alt={item.name} className='w-full sm:h-full rounded-sm object-contain' />
                                 </div>
-
-                                <div className='mt-3 mx-auto'>
-                                    <a  href={item.linkedin} rel='preload' className=' text-blue-600 text-2xl text-center lg:text-xl'>{item.linkedin !== undefined ? <ImLinkedin /> : ''}</a>
+                                <div className='text-white flex flex-col items-center gap-2 mt-2'>
+                                    <div>
+                                        <h3 className='text-white text-center font-bold text-[20px] sm:text-[24px]'>{item.nome}</h3>
+                                        <p className='text-white text-center text-[14px] sm:text-[16px]'>{item.funcao}</p>
+                                    </div>
+                                    <a href={item.linkedin} target='_blank' rel='noreferrer' className='text-white text-center mt-2'>
+                                        <ImLinkedin size={24} />
+                                    </a>
                                 </div>
                             </div>
-                        </motion.div>
+                        </Link>
                     ))}
                 </div>
             </div>
         </div>
-    )
+    );
 }

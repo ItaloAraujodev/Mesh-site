@@ -37,7 +37,8 @@ export default {
       },
 
       fontFamily: {
-        'russo-one': ['Russo One', 'sans-serif']
+        'russo-one': ['Russo One', 'sans-serif'],
+        'raleway': ['Raleway', 'sans-serif']
       },
       backgroundImage: {
         'planejamento': "url('/src/assets/Trabalhamos/planejamento.svg')"
@@ -45,18 +46,18 @@ export default {
     },
     screens: {
       //Mobile
-      '360': { 'min': '360px', 'max': '640px' },
+      '360': { 'min': '360px' },
       //'360-1': { 'min': '360px', 'raw': '(max-height: 760px)' },
-      '414': { 'min': '414px', 'max': '896px' }, 
-      '375': { 'min': '375px', 'max': '667px' }, 
-      '360-2': { 'min': '360px', 'max': '780px' }, 
+      '414': { 'min': '414px' }, 
+      '375': { 'min': '375px' }, 
+      '360-2': { 'min': '360px' }, 
       //Desktop
-      'sm': { 'min': '640px', 'max': '767px' },
-      'md': { 'min': '768px', 'max': '1023px' },
-      'lg': { 'min': '1024px', 'max': '1279px' },
-      'xl': { 'min': '1280px', 'max': '1439px' },
-      '1440': { 'min': '1440px', 'max': '1535px' },
-      '2xl': { 'min': '1536px', 'max': '1919px' },
+      'sm': { 'min': '640px' },
+      'md': { 'min': '768px' },
+      'lg': { 'min': '1024px' },
+      'xl': { 'min': '1280px' },
+      '1440': { 'min': '1440px' },
+      '2xl': { 'min': '1536px' },
       "full": '1920px',
     }
   },

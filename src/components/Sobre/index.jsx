@@ -6,12 +6,11 @@ import Button from '../Button';
 
 export default function Sobre() {
 
-
     return (
         <div id='sobre' className="w-full h-[55rem] 360:h-auto md:h-[auto] py-1 bg-gradient-to-r from-line-linear-azul to-line-linear-red relative ">
             <div className="w-full h-full text-white flex justify-center bg-gradient-to-r from-saturation-azul-escuro to-saturation-preto">
                 <div className="w-[90%] h-full flex flex-col justify-center overflow-x-hidden">
-                    <h2 data-aos="fade-down" className="font-russo-one my-8 text-[42px] 360:text-[2rem] text-center font-white">Sobre nós</h2>
+                    <h2 data-aos="fade-down" className="font-russo-one my-8 text-[42px] lg:text-[48px] 360:text-[2rem] text-center font-white">Sobre nós</h2>
                     <div className="flex 360:flex-col md:flex-col items-center">
                         <div data-aos="fade-right" className="w-[60%] lg:w-[60%] 360:w-auto md:w-[60%] sm:w-[80%]">
                             <img src={sobre} alt="Foto de um robo" draggable="false" />
