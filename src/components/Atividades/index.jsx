@@ -14,8 +14,8 @@ import { CardComponent } from './CardComponent';
 
 export default function Atividades() {
     return (
-        <div id='atividade' className="w-full h-auto pb-1 bg-gradient-to-r from-line-linear-azul to-line-linear-red">
-            <div className="w-full h-full bg-azul-claro text-white flex items-center justify-center 360:py-28 py-40 ">
+        <div id='atividade' className="w-full h-auto pb-1 bg-gradient-to-r from-blue-500 to-[#2a396b]">
+            <div className="w-full h-full bg-[#0E192A] text-white flex items-center justify-center 360:py-28 py-40 ">
                 <div className='w-full flex flex-col'>
                     <h2  className='text-center font-white font-russo-one text-[42px] lg:text-[48px] 360:text-[2rem] mb-16'>Nossos serviços</h2>
                     <div  className="w-full flex flex-wrap justify-center items-center gap-6">

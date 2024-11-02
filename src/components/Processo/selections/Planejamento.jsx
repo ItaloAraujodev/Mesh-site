@@ -10,7 +10,7 @@ export default function Planejamento() {
       <div className="gap-6 flex 2xl:h-[90%] justify-center ">
 
         <div className="h-full w-full lg:max-w-[650px] ">
-          <div className="border rounded-lg p-4 min-h-[300px] lg:max-h-[300px] 360:h-full">
+          <div className="border border-white/40 rounded-lg p-4 min-h-[300px] lg:max-h-[300px] 360:h-full">
             <h1 className="lg:text-2xl font-bold 360:text-lg">Planejamento e Descoberta</h1>
             <p className="lg:text-lg 360:text-base mt-2">
               Nesta fase inicial, trabalhamos em conjunto com o cliente para entender suas necessidades, objetivos e visão para o projeto. Realizamos um kickoff para coletar informações essenciais. O objetivo é estabelecer uma compreensão clara do escopo do projeto e identificar os requisitos. Ao final desta etapa, elaboramos um plano detalhado que servirá como guia para o restante do processo de desenvolvimento.
@@ -18,11 +18,11 @@ export default function Planejamento() {
           </div>
 
           <div className="flex w-full gap-6 min-h-[170px] lg:max-h-[170px] 360:h-fit">
-            <div className="w-1/2 border rounded-lg p-4 mt-6 space-y-3">
+            <div className="w-1/2 border border-white/40 rounded-lg p-4 mt-6 space-y-3">
               <h1 className="font-bold">Entregáveis</h1>
               <p>Prazos de entrega, destrinchados por sprint e task feita</p>
             </div>
-            <div className="w-1/2 border rounded-lg p-4 mt-6 space-y-3">
+            <div className="w-1/2 border border-white/40 rounded-lg p-4 mt-6 space-y-3">
               <h1 className="font-bold">Duração</h1>
               <p>1 a 2 semanas</p>
             </div>

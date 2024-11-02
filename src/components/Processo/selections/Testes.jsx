@@ -8,7 +8,7 @@ export function Testes() {
       <div className="gap-6 flex 2xl:h-[90%] justify-center">
 
         <div className="w-full lg:max-w-[650px]">
-          <div className="border rounded-lg p-4 min-h-[300px] max-h-[300px]">
+          <div className="border border-white/40 rounded-lg p-4 min-h-[300px] max-h-[300px]">
             <h1 className="lg:text-2xl font-bold 360:text-lg">Testes e Garantia de Qualidade</h1>
             <p className="lg:text-lg 360:text-base mt-2">
               Após o desenvolvimento, realizamos testes rigorosos para identificar e corrigir quaisquer defeitos ou problemas de funcionalidade no software.
@@ -16,11 +16,11 @@ export function Testes() {
           </div>
 
           <div className="flex w-full gap-6 min-h-[170px] max-h-[170px]">
-            <div className="w-1/2 border rounded-lg p-4 mt-6 space-y-3">
+            <div className="w-1/2 border border-white/40 rounded-lg p-4 mt-6 space-y-3">
               <h1 className="font-bold">Entregáveis</h1>
               <p>Relatório com todos os resultados dos testes</p>
             </div>
-            <div className="w-1/2 border rounded-lg p-4 mt-6 space-y-3">
+            <div className="w-1/2 border border-white/40 rounded-lg p-4 mt-6 space-y-3">
               <h1 className="font-bold">Duração</h1>
               <p>2+ semanas</p>
             </div>

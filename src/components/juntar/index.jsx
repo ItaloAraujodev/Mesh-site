@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 
 export default function Juntar() {
     return (
-        <div id="juntar" className="w-full h-auto pb-1 bg-gradient-to-r from-line-linear-azul to-line-linear-red ">
+        <div id="juntar" className="w-full h-auto pb-1 bg-gradient-to-r from-blue-500 to-[#2a396b]">
             <div className="w-full h-full bg-gradient-to-r from-azul-claro via-saturation-azul-escuro to-azul-claro text-white flex justify-center py-24">
                 <div className="flex flex-col justify-center items-center">
                     <div data-aos="fade-down" className="w-[90%] flex flex-col items-center mb-12">

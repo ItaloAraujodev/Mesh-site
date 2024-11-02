@@ -8,7 +8,7 @@ export function Entrega() {
       <div className="gap-6 flex 2xl:h-[90%] justify-center">
 
         <div className="w-full lg:max-w-[650px]">
-          <div className="border rounded-lg p-4 min-h-[300px] max-h-[300px]">
+          <div className="border border-white/40 rounded-lg p-4 min-h-[300px] max-h-[300px]">
             <h1 className="lg:text-2xl font-bold 360:text-lg">Entrega e Manutenção</h1>
             <p className="lg:text-lg 360:text-base mt-2">
               Após a conclusão dos testes e a aprovação final, entregamos o software pronto para uso. Além disso, oferecemos serviços de manutenção contínua para garantir que o software permaneça atualizado, seguro e funcionando sem problemas a longo prazo.
@@ -16,11 +16,11 @@ export function Entrega() {
           </div>
 
           <div className="flex w-full gap-6 min-h-[170px] lg:max-h-[170px] 360:h-fit">
-            <div className="w-1/2 border rounded-lg p-4 mt-6 space-y-3">
+            <div className="w-1/2 border border-white/40 rounded-lg p-4 mt-6 space-y-3">
               <h1 className="font-bold">Entregáveis</h1>
               <p>Software finalizado com acompanhamento e manutenção</p>
             </div>
-            <div className="w-1/2 border rounded-lg p-4 mt-6 space-y-3">
+            <div className="w-1/2 border border-white/40 rounded-lg p-4 mt-6 space-y-3">
               <h1 className="font-bold">Duração</h1>
               <p>A negociar</p>
             </div>

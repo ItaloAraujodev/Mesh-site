@@ -17,7 +17,6 @@ export default function HomePage() {
         <Diferencial />
         <Processo />
         <Atividades />
-        <Juntar />
         <Integrantes />
     </main>
   )

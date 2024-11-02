@@ -6,15 +6,15 @@ export default function Integrantes() {
 
 
     return (
-        <div id='inte' className="w-full h-full bg-gradient-to-r from-line-linear-azul to-line-linear-red">
-            <div className="w-full h-full bg-[#10121D] text-white flex flex-col items-center py-20">
+        <div id='inte' className="w-full h-full bg-gradient-to-r from-blue-500 to-[#2a396b]">
+            <div className="w-full h-full bg-[#0E192A] text-white flex flex-col items-center py-20">
                 <h2 data-aos="fade-down" className='font-russo-one text-[42px] lg:text-[48px] 360:text-[2rem] mb-4'>Nossa equipe</h2>
                 <div className='my-16 flex gap-6 flex-wrap justify-center px-4 md:px-0'>
                     {listIntegrantes.map((item, index) => (
-                        <Link className={`bg-gradient-to-bl from-saturation-green to-saturation-azul-claro p-0.5 rounded-sm transform transition-transform duration-300 hover:-translate-y-3`} key={index}
+                        <Link className={`border-white/40 border rounded-sm transform transition-transform duration-300 hover:-translate-y-3`} key={index}
 
                         >
-                            <div className='w-[280px] h-[400px] sm:w-[300px] sm:h-[420px] rounded-sm bg-azul-claro'>
+                            <div className='w-[280px] h-[400px] sm:w-[300px] sm:h-[420px] rounded-sm'>
                                 <div>
                                     <img src={item.imagem} alt={item.name} className='w-full sm:h-full rounded-sm object-contain' />
                                 </div>

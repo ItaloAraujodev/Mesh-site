@@ -28,8 +28,8 @@ export default function Processo() {
   };
 
   return (
-    <div id="process" className="w-full h-auto pb-1 bg-gradient-to-r from-line-linear-azul to-line-linear-red">
-      <div className="w-full h-full bg-azul-claro text-white flex flex-col items-center justify-center 360:py-20 lg:pt-24 lg:pb-40">
+    <div id="process" className="w-full h-auto pb-1 bg-gradient-to-r from-blue-500 to-[#2a396b]">
+      <div className="w-full h-full bg-[#0E192A] text-white flex flex-col items-center justify-center 360:py-20 lg:pt-24 lg:pb-40">
         <h2 className="text-center font-white font-russo-one lg:text-[48px] 360:text-[2rem] mb-16">Explicação do Processo</h2>
         <div className="360:hidden lg:block">
           <ul className="flex gap-20 lg:gap-10 360:flex-col lg:flex-row">

@@ -8,7 +8,7 @@ export function Producao() {
       <div className="gap-6 flex 2xl:h-[90%] justify-center">
 
         <div className="w-full lg:max-w-[650px] ">
-          <div className="border rounded-lg p-4 min-h-[300px] max-h-[300px]">
+          <div className="border border-white/40 rounded-lg p-4 min-h-[300px] max-h-[300px]">
             <h1 className="lg:text-2xl font-bold 360:text-lg">Desenvolvimento</h1>
             <p className="lg:text-lg 360:text-base mt-2">
               Na etapa de produção, a equipe de desenvolvimento transforma os conceitos e designs em código. Isso envolve implementação de funcionalidades, integrações de sistemas e a criação de bancos de dados, conforme especificado no escopo do projeto.
@@ -16,11 +16,11 @@ export function Producao() {
           </div>
 
           <div className="flex w-full gap-6 min-h-[170px] lg:max-h-[170px] 360:h-fit">
-            <div className="w-1/2 border rounded-lg p-4 mt-6 space-y-3">
+            <div className="w-1/2 border border-white/40 rounded-lg p-4 mt-6 space-y-3">
               <h1 className="font-bold">Entregáveis</h1>
               <p>Desenvolvimento e implementação do design final</p>
             </div>
-            <div className="w-1/2 border rounded-lg p-4 mt-6 space-y-3">
+            <div className="w-1/2 border border-white/40 rounded-lg p-4 mt-6 space-y-3">
               <h1 className="font-bold">Duração</h1>
               <p>4+ semanas</p>
             </div>
